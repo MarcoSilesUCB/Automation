@@ -30,9 +30,9 @@ Then('veo que se me nego el acceso') do
     
 end
 
-Then('mi correo sigue escrito') do
+Then('mi correo sigue escrito {string}') do |string|
     page.has_selector?('#login_error')
-    if find_field('user_login').value == @correo
+    if find_field('user_login').value.to_s != string
         raise "No mantiene el correo introducido"
     end
 end

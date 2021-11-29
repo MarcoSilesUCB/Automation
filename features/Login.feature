@@ -29,6 +29,6 @@ Scenario: Iniciar sesion con correo incorrecto
   And introduzco la clave "soyuntest.0"
   And presiono el boton acceder
   Then veo que se me nego el acceso
-  And mi correo sigue escrito 
+  And mi correo sigue escrito "soyuntest.0123@gmail.com"
 
  
