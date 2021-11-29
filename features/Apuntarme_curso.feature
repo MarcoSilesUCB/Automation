@@ -8,5 +8,5 @@ Scenario: Apuntarme al curso por primera vez
   And hago click en "cursos"
   When hago click en la tarjeta "como hacer milkshakes"
   And hago click en el boton "apuntarme"
-  Then Ahora estoy en la pagina "Como hacer milkshakes"
+  Then Ahora estoy en la pagina de carrito "Como hacer milkshakes"
  
