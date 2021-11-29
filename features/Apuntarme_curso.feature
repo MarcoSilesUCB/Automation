@@ -1,9 +1,9 @@
 Feature: test Apuntarme a un curso
 As Interesado en cursos en linea
 I want Poder apuntarme al curso "como hacer milkshakes"
-So podre tenerlo en mi carrito
+So podre añadirlo en mi carrito
 
-Scenario: Apuntarme al curso por primera vez    
+Scenario: Apuntarme al curso    
   Given estoy en la pagina pricipal
   And hago click en "cursos"
   When hago click en la tarjeta "como hacer milkshakes"
