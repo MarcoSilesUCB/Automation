@@ -1,14 +1,8 @@
 
 
-Given('presiono en {string}') do |string|
-    page.find("#header-aside > div > div.bb-header-buttons > a.button.small.outline.signin-button.link").click
-    @correo=""
-end
 
 When('introduzco la cuenta {string}') do |string|
     fill_in 'user_login', :with => string
-    @correo=string
-
 end
 
 When('introduzco la clave {string}') do |string|
