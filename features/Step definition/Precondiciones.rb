@@ -1,4 +1,4 @@
-Given(/^estoy en la pagina pricipal$/) do
+Given(/^estoy en la pagina principal$/) do
   page.driver.browser.manage.window.maximize
   visit 'https://www.r-acad.com/'
 

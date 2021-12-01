@@ -13,13 +13,13 @@ When('presiono el boton acceder') do
     click_on ('wp-submit')
 end
 
-Then('veo la pagina principal con la cuenta iniciada') do
+Then('reviso el que el nombre de la cuenta aparezca en la parte superior de la pantalla') do
     page.has_selector?('#header-aside > div > div.user-wrap.user-wrap-container.menu-item-has-children > a > span')
 
 end
 
 
-Then('veo que se me nego el acceso') do
+Then('veo que emerge un mensaje de error') do
     page.has_selector?('#login_error')
     
 end
