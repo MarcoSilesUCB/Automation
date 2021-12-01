@@ -14,4 +14,4 @@ Scenario: añadir el curso "como hacer milkshakes" y "Curso completo de Photosho
   And hago click en el boton "apuntarme"
   And hago click en el boton "añadir al carrito"
   And hago click en el boton "ver carrito" dentro del icono de carrito
-  Then Ahora en mi carrito veo el precio toal de "51.00Bs"
+  Then Ahora en mi carrito veo el precio toal de "51.00Bs."
