@@ -4,7 +4,7 @@ I quiero ir a la pagina finalizar la compra
 So vere los detalles de facturación
 
 Scenario: Finalizar compra  
-  Given estoy en la pagina pricipal
+  Given estoy en la pagina principal
   And hago click en "iniciar sesion"
   When introduzco la cuenta "soyuntest.0123@gmail.com"
   And introduzco la clave "soyuntest.0123"
