@@ -9,6 +9,12 @@ Given('hago click en {string}') do |string|
     page.find("#menu-item-196").click
   elsif string == "iniciar sesion"
     page.find("#header-aside > div > div.bb-header-buttons > a.button.small.outline.signin-button.link").click
+  end
+end
+
+Given('Visito la pagina de {string}') do |string|
+  if string == "eventos"
+    visit 'https://www.r-acad.com/eventos/'
   elsif string == "Inicio"
     page.find("#menu-item-191 > a").click
   elsif string == "Unirse"
