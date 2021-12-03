@@ -1,78 +1,68 @@
-Feature: Event page tests
-As a User
-I want to test the event page
-So I see the erros.
+Feature: Pruebas en la pagina de Eventos.
+As Usuario
+I want to probar la pagina de eventos
+So Ver como funciona.
+
+Scenario: Buscar una palabra erronea
+  Given Visito la pagina de "eventos"
+  When Busco la palabra "Hola"
+  Then Deberia ver "Próximos Eventos"
+
+Scenario: Usar el formulario de fecha      
+  Given Visito la pagina de "eventos"
+  When Preciono "11/29/2021"
+  Then Veo en el calendario "diciembre 2021"
+
+Scenario: Buscar una palabra en blanco
+  Given Visito la pagina de "eventos"
+  When Preciono el boton de: "Buscar Eventos"
+  Then Veo el mensaje: "No se ha encontrado ningún resultado."
+
+Scenario: Click en el filtro de mes
+  Given Visito la pagina de "eventos"
+  When Preciono el boton de: "Lista"
+  And Clickeo en: "Mes"
+  Then Veo el mensaje "Eventos en diciembre 2021"
+
+Scenario: Click en el filtro de semana
+  Given Visito la pagina de "eventos"
+  When Preciono el boton de: "Lista"
+  And Clickeo en: "Semana"
+  Then Veo el mensaje de semana "Eventos para semana del noviembre 29, 2021"
+
+Scenario: Click en eventos anteriores
+  Given Visito la pagina de "eventos"
+  When Preciono el boton de: "Eventos anteriores"
+  Then Veo el mensaje "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
+
+Scenario: Click en un evento
+  Given Visito la pagina de "eventos"
+  When Preciono el boton de: "Eventos anteriores"
+  And Clickeo en: "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
+  Then Veo el titulo de: "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
 
 @maximize
-Scenario: search wrong word
-  Given I visit "https://www.r-acad.com/eventos/"
-  When I search for "Hola"
-  Then I should see results "Próximos Eventos"
+Scenario: Click en el boton de proximo evento estando en un evento 
+  Given Visito la pagina de "eventos"
+  When Preciono el boton de: "Eventos anteriores"
+  And Clickeo en: "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
+  And Clickeo en: "Next Event"
+  Then Veo el titulo de: "MASTERCLASS “Transformación Digital para tu Negocio”"
 
+Scenario: Click en el boton de anterior evento estando en un evento 
+  Given Visito la pagina de "eventos"
+  When Preciono el boton de: "Eventos anteriores"
+  And Clickeo en: "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
+  And Clickeo en: "Next Event"
+  And Clickeo en: "Previous Event"
+  Then Veo el titulo de: "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
 
-@maximize
-Scenario: Click on date      
-  Given I visit "https://www.r-acad.com/eventos/"
-  When Press the "11/29/2021"
-  Then I see calendar message "diciembre 2021"
-
-@maximize
-Scenario: Click on buscar when I don't have anything to find
-  Given I visit "https://www.r-acad.com/eventos/"
-  When Press the "Buscar Eventos" button
-  Then I see message "No se ha encontrado ningún resultado."
-
-@maximize
-Scenario: Click on filter by month
-  Given I visit "https://www.r-acad.com/eventos/"
-  When Press the "Lista" button
-  And I click "Mes"
-  Then I see the message "Eventos en diciembre 2021"
-
-@maximize
-Scenario: Click on filter by week
-  Given I visit "https://www.r-acad.com/eventos/"
-  When Press the "Lista" button
-  And I click "Semana"
-  Then I see the message in week "Eventos para semana del noviembre 29, 2021"
-
-@maximize
-Scenario: Click on previous events
-  Given I visit "https://www.r-acad.com/eventos/"
-  When Press the "Eventos anteriores" button
-  Then I see the message "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
-
-@maximize
-Scenario: Click on "Next Event" button a specific event
-  Given I visit "https://www.r-acad.com/eventos/"
-  When Press the "Eventos anteriores" button
-  And I click "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
-  Then I see the title "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
-
-@maximize
-Scenario: Click on "Next Event" button a specific event
-  Given I visit "https://www.r-acad.com/eventos/"
-  When Press the "Eventos anteriores" button
-  And I click "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
-  And I click "Next Event"
-  Then I see the title "MASTERCLASS “Transformación Digital para tu Negocio”"
-
-@maximize
-Scenario: Click on "Previous Event" button a specific event
-  Given I visit "https://www.r-acad.com/eventos/"
-  When Press the "Eventos anteriores" button
-  And I click "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
-  And I click "Next Event"
-  And I click "Previous Event"
-  Then I see the title "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
-
-@maximize
-Scenario: Click on a specific date      
-  Given I visit "https://www.r-acad.com/eventos/"
-  When Press the "11/29/2021"
-  And I click "diciembre 2021"
-  And I click "2021"
-  And I click "2020"
-  And I click "Ene"
-  And I click "1"
-  Then I see the title "NOVIEMBRE 2020"
+Scenario: Click en una fecha especifica
+  Given Visito la pagina de "eventos"
+  When Preciono "11/29/2021"
+  And Clickeo en: "diciembre 2021"
+  And Clickeo en: "2021"
+  And Clickeo en: "2020"
+  And Clickeo en: "Ene"
+  And Clickeo en: "1"
+  Then Veo el titulo de: "NOVIEMBRE 2020"

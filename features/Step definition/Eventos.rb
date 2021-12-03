@@ -1,30 +1,26 @@
-Given('I visit {string}') do |string|
-    visit string
-  end
-
-When(/^I search for "([^"]*)"$/) do |valueToSearch|
+When(/^Busco la palabra "([^"]*)"$/) do |valueToSearch|
   fill_in('tribe-bar-search',:with => valueToSearch).native.send_keys(:return)
 end
       
-Then(/^I should see results "([^"]*)"$/) do |string|
+Then(/^Deberia ver "([^"]*)"$/) do |string|
   message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[1]/h1')
   if message.text != string
     raise "result should be "+string
   end
 end
 
-When(/^Press the "([^"]*)"$/) do |buttonName|
+When(/^Preciono "([^"]*)"$/) do |buttonName|
   find('input[name="tribe-bar-date"]').click
   end
 
-Then(/^I see calendar message "([^"]*)"$/) do |string|
+Then(/^Veo en el calendario "([^"]*)"$/) do |string|
   message = find(:xpath, '/html/body/div[5]/div[1]/table/thead/tr[2]/th[2]')
   if message.text != string
     raise "result should be "+string
   end
 end
 
-When('Press the {string} button') do |string|
+When('Preciono el boton de: {string}') do |string|
   if string =="Lista"
     find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[2]/form/div[2]/div/button').click
   elsif string ==  "Buscar Eventos"
@@ -35,14 +31,14 @@ When('Press the {string} button') do |string|
   end
 end
 
-Then(/^I see message "([^"]*)"$/) do |string|
+Then(/^Veo el mensaje: "([^"]*)"$/) do |string|
   message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[3]/div[1]/ul/li')
   if message.text != string
     raise "result should be "+string
   end
 end
 
-When(/^I click "([^"]*)"$/) do |buttonName|
+When(/^Clickeo en: "([^"]*)"$/) do |buttonName|
   if buttonName =="Mes"
     find('li[id="tribe-bar-views-option-month"]').click
   elsif buttonName=="Semana"
@@ -74,7 +70,7 @@ When(/^I click "([^"]*)"$/) do |buttonName|
   end
 end
 
-Then(/^I see the message "([^"]*)"$/) do |string|
+Then(/^Veo el mensaje "([^"]*)"$/) do |string|
   if string=="Eventos en diciembre 2021"
     message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[1]/h1')
     if message.text != string
@@ -88,14 +84,14 @@ Then(/^I see the message "([^"]*)"$/) do |string|
   end
 end
 
-Then(/^I see the message in week "([^"]*)"$/) do |string|
+Then(/^Veo el mensaje de semana "([^"]*)"$/) do |string|
   message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[1]/h1')
   if message.text != string
     raise "result should be "+string
   end
 end
 
-Then('I see the title {string}') do |string|
+Then('Veo el titulo de: {string}') do |string|
   if string == "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
     message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[2]/div[2]/div[1]/h1')
     if message.text != string
