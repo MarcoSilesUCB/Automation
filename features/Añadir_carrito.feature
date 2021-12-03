@@ -1,7 +1,7 @@
 Feature: test añadir a un curso
 As Interesado en cursos en linea
 I want Poder añadir el curso "como hacer milkshakes" a mi carrito
-So podre tenerlo en mi carrito
+So podre tenerlo guardado en mi carrito
 
 Scenario: añadir el curso por primera vez    
   Given estoy en la pagina principal
