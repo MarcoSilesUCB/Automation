@@ -1,7 +1,7 @@
 Feature: test filtrar por profesor
 As Interesado en cursos en linea
-I want Poder filtrar los cursos solo por el instructor 
-So podre encontrar los cursorelacionados al instructor mas rapido
+I want Poder filtrar los cursos solo por un instructor 
+So podre encontrar los cursos relacionados al instructor mas rapido
 
 Scenario: Filtrar curso por instructor Sebastián    
   Given estoy en la pagina principal

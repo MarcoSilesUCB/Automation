@@ -19,5 +19,5 @@ Scenario: añadir el curso "como hacer milkshakes" y "Curso completo de Photosho
   And hago click en el boton "añadir al carrito"
   And hago click en el boton "ver carrito" dentro del icono de carrito
   And hago click en el boton de eliminar el producto "como hacer milkshakes"
-  Then Ahora en mi carrito solo tiene 5
+  Then Ahora en mi carrito solo tiene 1 cursos
   
