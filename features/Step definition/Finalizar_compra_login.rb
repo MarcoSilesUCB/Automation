@@ -11,4 +11,3 @@ Then('Ahora puedo llenar los detalles de facturación.') do
   campo_ciudad = "#billing_city_field > label"
   find(campo_ciudad) == "Localidad / Ciudad "
 end
-#post-29 > div > div > form > table > tbody > tr:nth-child(2) > td.product-remove
