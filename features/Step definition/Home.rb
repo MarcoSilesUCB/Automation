@@ -14,7 +14,9 @@ When('hago click en la opcion {string}') do |string|
         page.find("#post-1024 > div > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-461af112.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-5192ee2f.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div.elementor-column.elementor-col-33.elementor-inner-column.elementor-element.elementor-element-1c802609 > div > div > div > div > div > div.elementor-cta__content > div > a").click
       elsif string == "El consumidor digital"
         page.find("#post-1024 > div > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-346f3099.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div.elementor-container.elementor-column-gap-default > div > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-a1ff39e.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.animated.fadeInUp > div > div > div > div > div > div > div > div > div.elementor-cta__content > div.elementor-cta__button-wrapper.elementor-cta__content-item.elementor-content-item > a").click
-      end
+      elsif string == "Curso"
+        page.find("#ld-course-list-content-6bff6326b614b5f92cd2dac85b7a4e01 > div > div:nth-child(1) > div > div.bb-card-course-details > h2 > a").click
+    end
   end
   
 
@@ -37,6 +39,10 @@ When('hago click en la opcion {string}') do |string|
         end
       elsif string == "El consumidor digital"
         if (has_no_current_path?("https://www.r-acad.com/evento/el-consumidor-digital-en-bolivia/"))
+          raise "No Me redirigio a la pagina esperada"
+        end
+      elsif string == "Curso"
+        if (has_no_current_path?("https://www.r-acad.com/courses/curso/"))
           raise "No Me redirigio a la pagina esperada"
         end
       end
