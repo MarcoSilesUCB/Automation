@@ -1,7 +1,7 @@
-Feature: test ver el total de 2 productos en el carrito
-As Interesado en cursos en linea
-I want Poder añadir 2 curos en mi carrito
-So podre ver el total en mi carrito
+Feature: test eliminar un producto
+As persona que ya añadio cursos a su carrito
+I quiero eliminar 1 curso
+So podre qeudarme solo con el curso en el que estoy interesado
 
 Scenario: añadir el curso "como hacer milkshakes" y "Curso completo de Photoshop desde Cero"    
   Given estoy en la pagina principal
