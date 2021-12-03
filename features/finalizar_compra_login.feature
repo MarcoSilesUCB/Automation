@@ -1,7 +1,7 @@
 Feature: test Finalizar compra
-As Interesado en cursos en linea
+As persona que finalizo la seleccion de cursos
 I quiero ir a la pagina finalizar la compra
-So vere los detalles de facturación
+So finalizar el proceso de añadir cursos al carrito.
 
 Scenario: Finalizar compra  
   Given estoy en la pagina principal
