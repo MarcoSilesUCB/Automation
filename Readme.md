@@ -1,5 +1,5 @@
 # Read Me 
-Este proyecto se REalizo para la Aplicacion de ROTTWEILER ACADEMY
+Este proyecto se desarrollo pruebas automaticas para la Aplicacion de ROTTWEILER ACADEMY
 
 Lins: https://www.r-acad.com/
 
