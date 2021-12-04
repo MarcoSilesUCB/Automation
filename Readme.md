@@ -12,4 +12,9 @@ Lins: https://www.r-acad.com/
     - Capybara 
     - Selenium WebDriver
 
+*Nota* 
+En algunos casos las pruebas pueden fallar debido a problemas de la aplicacion al redirigirse a otra vista:
+- debido a que la página no carga correctamente
+- debido a que muchos botones no redirigen a ningun lado.
+
 
