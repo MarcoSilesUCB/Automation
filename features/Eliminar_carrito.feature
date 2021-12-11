@@ -1,7 +1,7 @@
 Feature: test eliminar un producto
 As persona que ya añadio cursos a su carrito
 I quiero eliminar 1 curso
-So podre qeudarme solo con el curso en el que estoy interesado
+So podre quedarme solo con el curso en el que estoy interesado
 
 Scenario: añadir el curso "como hacer milkshakes" y "Curso completo de Photoshop desde Cero"    
   Given estoy en la pagina principal
