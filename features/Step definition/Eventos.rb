@@ -38,37 +38,6 @@ Then(/^Veo el mensaje: "([^"]*)"$/) do |string|
   end
 end
 
-When(/^Clickeo en: "([^"]*)"$/) do |buttonName|
-  if buttonName =="Mes"
-    find('li[id="tribe-bar-views-option-month"]').click
-  elsif buttonName=="Semana"
-    find('li[id="tribe-bar-views-option-week"]').click
-  end
-  if buttonName == "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
-    find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[2]/div/h2/a').click
-  end
-  if buttonName == "Next Event"
-    find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[5]/ul/li[2]/a').click
-  end
-  if buttonName == "Previous Event"
-    find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[5]/ul/li[1]/a').click
-  end
-  if buttonName == "diciembre 2021"
-    find(:xpath, '/html/body/div[5]/div[1]/table/thead/tr[2]/th[2]').click
-  end
-  if buttonName == "2021"
-    find(:xpath, '/html/body/div[5]/div[2]/table/thead/tr[2]/th[2]').click
-  end
-  if buttonName == "2020"
-    find(:xpath, '/html/body/div[5]/div[3]/table/tbody/tr/td/span[2]').click
-  end
-  if buttonName == "Ene"
-    find(:xpath, '/html/body/div[5]/div[2]/table/tbody/tr/td/span[1]').click
-  end
-  if buttonName == "1"
-    find(:xpath, '/html/body/div[5]/div[1]/table/tbody/tr[1]/td[3]').click
-  end
-end
 
 Then(/^Veo el mensaje "([^"]*)"$/) do |string|
   if string=="Eventos en diciembre 2021"
@@ -108,5 +77,37 @@ Then('Veo el titulo de: {string}') do |string|
     if message.text != string
       raise "result should be "+string
     end
+  end
+end
+
+When(/^Clickeo en: "([^"]*)"$/) do |buttonName|
+  if buttonName == "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
+    find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[2]/div/h2/a').click
+  elsif buttonName=="Semana"
+    find('li[id="tribe-bar-views-option-week"]').click
+  end 
+  if buttonName =="Mes"
+    find('li[id="tribe-bar-views-option-month"]').click
+  end
+  if buttonName == "Next Event"
+    find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[5]/ul/li[2]/a').click
+  end
+  if buttonName == "Previous Event"
+    find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[5]/ul/li[1]/a').click
+  end
+  if buttonName == "diciembre 2021"
+    find(:xpath, '/html/body/div[5]/div[1]/table/thead/tr[2]/th[2]').click
+  end
+  if buttonName == "2021"
+    find(:xpath, '/html/body/div[5]/div[2]/table/thead/tr[2]/th[2]').click
+  end
+  if buttonName == "2020"
+    find(:xpath, '/html/body/div[5]/div[3]/table/tbody/tr/td/span[2]').click
+  end
+  if buttonName == "Ene"
+    find(:xpath, '/html/body/div[5]/div[2]/table/tbody/tr/td/span[1]').click
+  end
+  if buttonName == "1"
+    find(:xpath, '/html/body/div[5]/div[1]/table/tbody/tr[1]/td[3]').click
   end
 end

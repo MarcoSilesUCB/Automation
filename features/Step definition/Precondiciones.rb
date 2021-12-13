@@ -18,6 +18,7 @@ end
 
 Given('Visito la pagina de {string}') do |string|
   if string == "eventos"
-    visit 'https://www.r-acad.com/eventos/'
+    find(:xpath, '/html/body/div[1]/header/div[1]/nav/div/ul/li[3]/a').click
   end
 end
+
