@@ -3,7 +3,7 @@ As persona que finalizo la seleccion de cursos
 I quiero ir a la pagina finalizar la compra
 So finalizar el proceso de añadir cursos al carrito.
 
-Scenario: Finalizar compra  
+Scenario: Poder ir a finalizar Compra habiendo iniciado sesión  
   Given estoy en la pagina principal
   And hago click en "iniciar sesion"
   When introduzco la cuenta "soyuntest.0123@gmail.com"
@@ -15,3 +15,4 @@ Scenario: Finalizar compra
   And hago click en el boton "añadir al carrito"
   And hago click en el boton "finalizar compra" dentro del icono de carrito
   Then Ahora puedo llenar los detalles de facturación.
+  

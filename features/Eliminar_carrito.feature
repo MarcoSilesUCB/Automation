@@ -3,7 +3,7 @@ As persona que ya añadio cursos a su carrito
 I quiero eliminar 1 curso
 So podre quedarme solo con el curso en el que estoy interesado
 
-Scenario: añadir el curso "como hacer milkshakes" y "Curso completo de Photoshop desde Cero"    
+Scenario: Eliminar un curso del carrito  
   Given estoy en la pagina principal
   And hago click en "iniciar sesion"
   When introduzco la cuenta "soyuntest.0123@gmail.com"
