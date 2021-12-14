@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase internalid="93" name="1401 Validar que se puede ingresar la pagina de eventos desde la pagina principal.">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[15]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el funcionamiento de la entrada a eventos desde la pagina principal.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el texto de eventos al lado derecho del logo de la pagina, el texto de inicio y el texto de cursos ubicado en la seccion superior izquierda de la pagina.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar:</p>
+
+<ul>
+	<li>El logo de la pagina en la parte superior izquierda junto a un menu horizontal de derecha a izquierda: inicio, cursos, eventos, carrito (el logo de un carrito), Iniciar sesion y registrarse.</li>
+	<li>Seguido a este el titulo de: &quot;Pr&oacute;ximos Eventos&quot;, debajo de esto, cuatro campos, el primero con la fecha de hoy, el segundo: un buscador de palabra clave, el tercero un boton para buscar evento, el cuarto el texto de lista.</li>
+	<li>debajo de esto una caja con un texto que dice: &quot;No se ha encontrado ningun resultado&quot;</li>
+	<li>debajo de este un texto que dice: &quot;&lt; Eventos anteriores.&quot;</li>
+	<li>debajo de este la seccion del copyright, con untexto en la parte inferior izquierda que dice: &quot;Copyright &copy; 2021 | Rottweiler Academy&quot; seguido a este el parte derecha el logo de facebook instagram y youtuve.</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="96" name="1402 validar que se puede buscar eventos por fecha">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[16]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el funcionamiento del filtro por fecha desde la pagina de eventos.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el texto de eventos al lado derecho del logo de la pagina, el texto de inicio y el texto de cursos ubicado en la seccion superior izquierda de la pagina.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar:</p>
+
+<ul>
+	<li>El logo de la pagina en la parte superior izquierda junto a un menu horizontal de derecha a izquierda: inicio, cursos, eventos, carrito (el logo de un carrito), Iniciar sesion y registrarse.</li>
+	<li>Seguido a este el titulo de: &quot;Pr&oacute;ximos Eventos&quot;, debajo de esto, cuatro campos, el primero con la fecha de hoy, el segundo: un buscador de palabra clave, el tercero un boton para buscar evento, el cuarto el texto de lista.</li>
+	<li>debajo de esto una caja con un texto que dice: &quot;No se ha encontrado ningun resultado&quot;</li>
+	<li>debajo de este un texto que dice: &quot;&lt; Eventos anteriores.&quot;</li>
+	<li>debajo de este la seccion del copyright, con untexto en la parte inferior izquierda que dice: &quot;Copyright &copy; 2021 | Rottweiler Academy&quot; seguido a este el parte derecha el logo de facebook instagram y youtuve.</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el campo donde se muestra la fecha de hoy.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera visualizar una ventan emergente, con un calendario, con el mes y la fecha en la seccion superior de este y debajo de este se mostraran los dias de la semana y los dias del mes.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>hacer click en el mes del calendario</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera mostra en la seccion superior de la misma ventana emergente, de derecha a izquierda, una flecha apuntando a la izquierda, el a&ntilde;o en el que estamos y un flcha apuntando a la derecha. En la seccion inferior deberan ver 3 filas y 4 columnas mostrando todos los meses del a&ntilde;o.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Hacer click en la flecha de la izquierda.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera cambiar el a&ntilde;o que se muestra en uno menos.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el mes de Enero</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera visualizar en la ventana emergente, un calendario, con el mes y la fecha en la seccion superior de este y debajo de este se mostraran los dias de la semana y los dias del mes.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el numero 1</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera visualizar que la ventana emergente se cerro y se mostraran eventos diferentes filas, en algunas diran el mes del envento como titulo, y debajo de estas filas mas filas con dos columnas,&nbsp;la primera con una imagen a la izquierda y la segunda en la derecha, dos columnas la primera con la fecha del evento y la segunda con la fecha y la hora del evento, debajo de este el titulo del evento&nbsp; y debajo de ambas columnas una descripcion corta del evento.</p>
+
+<p>En la parte debajo de todas las filas se visualizara un bonton que dira: &quot;Eventos de exportacion&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="105" name="1403 Validar que se puede buscar eventos por palabra clave,">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[17]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el funcionamiento del filtro por palabra clave desde la pagina de eventos.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el texto de eventos al lado derecho del logo de la pagina, el texto de inicio y el texto de cursos ubicado en la seccion superior izquierda de la pagina.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar:</p>
+
+<ul>
+	<li>El logo de la pagina en la parte superior izquierda junto a un menu horizontal de derecha a izquierda: inicio, cursos, eventos, carrito (el logo de un carrito), Iniciar sesion y registrarse.</li>
+	<li>Seguido a este el titulo de: &quot;Pr&oacute;ximos Eventos&quot;, debajo de esto, cuatro campos, el primero con la fecha de hoy, el segundo: un buscador de palabra clave, el tercero un boton para buscar evento, el cuarto el texto de lista.</li>
+	<li>debajo de esto una caja con un texto que dice: &quot;No se ha encontrado ningun resultado&quot;</li>
+	<li>debajo de este un texto que dice: &quot;&lt; Eventos anteriores.&quot;</li>
+	<li>debajo de este la seccion del copyright, con untexto en la parte inferior izquierda que dice: &quot;Copyright &copy; 2021 | Rottweiler Academy&quot; seguido a este el parte derecha el logo de facebook instagram y youtuve.</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Ingresar: &quot;CURSO ONLINE: PRESUPUESTO EMPRESARIAL&quot; en el campo de palabra clave</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera visualizar El campo de palabra clave llena.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton de &quot;Buscar Eventos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar:</p>
+
+<ul>
+	<li>El logo de la pagina en la parte superior izquierda junto a un menu horizontal de derecha a izquierda: inicio, cursos, eventos, carrito (el logo de un carrito), Iniciar sesion y registrarse.</li>
+	<li>Seguido a este el titulo de: &quot;Pr&oacute;ximos Eventos&quot;, debajo de esto, cuatro campos, el primero con la fecha de hoy, el segundo: un buscador de palabra clave, el tercero un boton para buscar evento, el cuarto el texto de lista.</li>
+	<li>debajo de esto una caja con un texto que dice: &quot;No se encontraron resultados para&nbsp;<strong>&quot;CURSO ONLINE: PRESUPUESTO EMPRESARIAL&quot;</strong>.&quot;</li>
+	<li>debajo de este un texto que dice: &quot;&lt; Eventos anteriores.&quot;</li>
+	<li>debajo de este la seccion del copyright, con untexto en la parte inferior izquierda que dice: &quot;Copyright &copy; 2021 | Rottweiler Academy&quot; seguido a este el parte derecha el logo de facebook instagram y youtuve.</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="111" name="1404 Validar que se ouede ingresar al detalle de un evento desde la pagina de eventos">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[18]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el funcionamiento de la entrada a el detalle de evento&nbsp;desde la pagina de eventos.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el texto de eventos al lado derecho del logo de la pagina, el texto de inicio y el texto de cursos ubicado en la seccion superior izquierda de la pagina.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar:</p>
+
+<ul>
+	<li>El logo de la pagina en la parte superior izquierda junto a un menu horizontal de derecha a izquierda: inicio, cursos, eventos, carrito (el logo de un carrito), Iniciar sesion y registrarse.</li>
+	<li>Seguido a este el titulo de: &quot;Pr&oacute;ximos Eventos&quot;, debajo de esto, cuatro campos, el primero con la fecha de hoy, el segundo: un buscador de palabra clave, el tercero un boton para buscar evento, el cuarto el texto de lista.</li>
+	<li>debajo de esto una caja con un texto que dice: &quot;No se ha encontrado ningun resultado&quot;</li>
+	<li>debajo de este un texto que dice: &quot;&lt; Eventos anteriores.&quot;</li>
+	<li>debajo de este la seccion del copyright, con untexto en la parte inferior izquierda que dice: &quot;Copyright &copy; 2021 | Rottweiler Academy&quot; seguido a este el parte derecha el logo de facebook instagram y youtuve.</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el campo donde se muestra la fecha de hoy.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera visualizar una ventan emergente, con un calendario, con el mes y la fecha en la seccion superior de este y debajo de este se mostraran los dias de la semana y los dias del mes.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>hacer click en el mes del calendario</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera mostra en la seccion superior de la misma ventana emergente, de derecha a izquierda, una flecha apuntando a la izquierda, el a&ntilde;o en el que estamos y un flcha apuntando a la derecha. En la seccion inferior deberan ver 3 filas y 4 columnas mostrando todos los meses del a&ntilde;o.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Hacer click en la flecha de la izquierda.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera cambiar el a&ntilde;o que se muestra en uno menos.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el mes de Enero</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera visualizar en la ventana emergente, un calendario, con el mes y la fecha en la seccion superior de este y debajo de este se mostraran los dias de la semana y los dias del mes.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el numero 1</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera visualizar que la ventana emergente se cerro y se mostraran eventos diferentes filas, en algunas diran el mes del envento como titulo, y debajo de estas filas mas filas con dos columnas,&nbsp;la primera con una imagen a la izquierda y la segunda en la derecha, dos columnas la primera con la fecha del evento y la segunda con la fecha y la hora del evento, debajo de este el titulo del evento&nbsp; y debajo de ambas columnas una descripcion corta del evento.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el titulo &quot;CURSO ONLINE: PRESUPUESTO EMPRESARIAL&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar:</p>
+
+<ul>
+	<li>El logo de la pagina en la parte superior izquierda junto a un menu horizontal de derecha a izquierda: inicio, cursos, eventos, carrito (el logo de un carrito), Iniciar sesion y registrarse.</li>
+	<li>una seccion que dice: &quot;Este evento ha pasado.&quot;</li>
+	<li>debajo de este dos columnas la primera con la fecha del evento y la segunda&nbsp;titulo del evento y debajo de este&nbsp;la fecha y la hora del evento.</li>
+	<li>Debajo de este se mostrara la imagen del evento y debajo de este el detalle deproducto.</li>
+	<li>Al finalizar en la iquierda tendras el texto de &quot;Next event &gt;&quot;.</li>
+	<li>debajo de este la seccion del copyright, con untexto en la parte inferior izquierda que dice: &quot;Copyright &copy; 2021 | Rottweiler Academy&quot; seguido a este el parte derecha el logo de facebook instagram y youtuve.</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="120" name="1406 Validar el funcionmaiento de next event en el detalle te producto">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[19]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el funcionamiento del boton &quot;Next event&quot; en la pagina del detalle de evento.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el texto de eventos al lado derecho del logo de la pagina, el texto de inicio y el texto de cursos ubicado en la seccion superior izquierda de la pagina.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar:</p>
+
+<ul>
+	<li>El logo de la pagina en la parte superior izquierda junto a un menu horizontal de derecha a izquierda: inicio, cursos, eventos, carrito (el logo de un carrito), Iniciar sesion y registrarse.</li>
+	<li>Seguido a este el titulo de: &quot;Pr&oacute;ximos Eventos&quot;, debajo de esto, cuatro campos, el primero con la fecha de hoy, el segundo: un buscador de palabra clave, el tercero un boton para buscar evento, el cuarto el texto de lista.</li>
+	<li>debajo de esto una caja con un texto que dice: &quot;No se ha encontrado ningun resultado&quot;</li>
+	<li>debajo de este un texto que dice: &quot;&lt; Eventos anteriores.&quot;</li>
+	<li>debajo de este la seccion del copyright, con untexto en la parte inferior izquierda que dice: &quot;Copyright &copy; 2021 | Rottweiler Academy&quot; seguido a este el parte derecha el logo de facebook instagram y youtuve.</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el campo donde se muestra la fecha de hoy.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera visualizar una ventan emergente, con un calendario, con el mes y la fecha en la seccion superior de este y debajo de este se mostraran los dias de la semana y los dias del mes.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>hacer click en el mes del calendario</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera mostra en la seccion superior de la misma ventana emergente, de derecha a izquierda, una flecha apuntando a la izquierda, el a&ntilde;o en el que estamos y un flcha apuntando a la derecha. En la seccion inferior deberan ver 3 filas y 4 columnas mostrando todos los meses del a&ntilde;o.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Hacer click en la flecha de la izquierda.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera cambiar el a&ntilde;o que se muestra en uno menos.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el mes de Enero</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera visualizar en la ventana emergente, un calendario, con el mes y la fecha en la seccion superior de este y debajo de este se mostraran los dias de la semana y los dias del mes.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el numero 1</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera visualizar que la ventana emergente se cerro y se mostraran eventos diferentes filas, en algunas diran el mes del envento como titulo, y debajo de estas filas mas filas con dos columnas,&nbsp;la primera con una imagen a la izquierda y la segunda en la derecha, dos columnas la primera con la fecha del evento y la segunda con la fecha y la hora del evento, debajo de este el titulo del evento&nbsp; y debajo de ambas columnas una descripcion corta del evento.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el titulo &quot;CURSO ONLINE: PRESUPUESTO EMPRESARIAL&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar:</p>
+
+<ul>
+	<li>El logo de la pagina en la parte superior izquierda junto a un menu horizontal de derecha a izquierda: inicio, cursos, eventos, carrito (el logo de un carrito), Iniciar sesion y registrarse.</li>
+	<li>una seccion que dice: &quot;Este evento ha pasado.&quot;</li>
+	<li>debajo de este dos columnas la primera con la fecha del evento y la segunda&nbsp;titulo del evento y debajo de este&nbsp;la fecha y la hora del evento.</li>
+	<li>Debajo de este se mostrara la imagen del evento y debajo de este el detalle deproducto.</li>
+	<li>Al finalizar en la iquierda tendras el texto de &quot;Next event &gt;&quot;.</li>
+	<li>debajo de este la seccion del copyright, con untexto en la parte inferior izquierda que dice: &quot;Copyright &copy; 2021 | Rottweiler Academy&quot; seguido a este el parte derecha el logo de facebook instagram y youtuve.</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>HAcer click en &quot;Next event &gt;&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar:</p>
+
+<ul>
+	<li>El logo de la pagina en la parte superior izquierda junto a un menu horizontal de derecha a izquierda: inicio, cursos, eventos, carrito (el logo de un carrito), Iniciar sesion y registrarse.</li>
+	<li>una seccion que dice: &quot;Este evento ha pasado.&quot;</li>
+	<li>debajo de este dos columnas la primera con la fecha del evento: &quot;<strong>noviembre 27, 2020 @ 6:00 pm&nbsp;-&nbsp;8:00 pm</strong>&quot; y la segunda&nbsp;titulo del evento: &quot;<strong>MASTERCLASS &ldquo;Transformaci&oacute;n Digital para tu Negocio&rdquo;</strong>&quot; y debajo de este&nbsp;la fecha y la hora del evento.</li>
+	<li>Debajo de este se mostrara la imagen del evento y debajo de este el detalle deproducto.</li>
+	<li>Al finalizar en la iquierda tendras el texto de &quot;Next event &gt;&quot;.</li>
+	<li>debajo de este la seccion del copyright, con untexto en la parte inferior izquierda que dice: &quot;Copyright &copy; 2021 | Rottweiler Academy&quot; seguido a este el parte derecha el logo de facebook instagram y youtuve.</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

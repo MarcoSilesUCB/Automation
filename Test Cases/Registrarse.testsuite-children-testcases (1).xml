@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase internalid="3" name="801 Validar que se puede entrar a la pagina de registro">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[1]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba validara el funcionamiento del boton de resgistro llevandote a nueva vista.</p>
+
+<p>&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton: &quot;Registrarse&quot;, situado en la esquina superior derecha de la pagina de inicio.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar una nueva vista en su navegador con el logo de la pagina en la parte superior, seguida del titulo: &quot;Crear Cuenta&quot;, con distintos campo para llenar como ser: correo electronico, contrase&ntilde;a, confirmar contrase&ntilde;a,&nbsp; nombre, apellido, nombre de usuario.<br />
+En la parte inferior se debera ver un boton que diga &quot;Crear Cuenta&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="6" name="802 Validar que se puede activar una cuenta">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[2]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el funcionamiento&nbsp;del proceso de activacion de cuenta.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+
+<p>3. El usuario debera tener una cuenta de correo de gmail sin registrar para esta prueba.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton: &quot;Registrarse&quot;, situado en la esquina superior derecha de la pagina de inicio.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar una nueva vista en su navegador con el logo de la pagina en la parte superior, seguida del titulo: &quot;Crear Cuenta&quot;, con distintos campo para llenar como ser: correo electronico, contrase&ntilde;a, confirmar contrase&ntilde;a,&nbsp; nombre, apellido, nombre de usuario.<br />
+En la parte inferior se debera ver un boton que diga &quot;Crear Cuenta&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Ingresar:</p>
+
+<ul>
+	<li>correo existente en el campo correo electronico.</li>
+	<li>&quot;test.0123&quot; en el campo contrase&ntilde;a.</li>
+	<li>&quot;test.0123&quot; en el campo confirmar contrase&ntilde;a.</li>
+	<li>&quot;test.0123&quot; en el campo nombre.</li>
+	<li>&quot;test.9876&quot; en el campo apellido.</li>
+	<li>&quot;test.test.0123&quot; en el campo nombre de usuario.</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar todos los campos del formulario llenos,</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton &quot;Crear Cuenta&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar una nueva vista con el logo de la pagina en la parte superior, seguido&nbsp;del subtitulo: &quot;&iexcl;Casi est&aacute;mos all&iacute;!&quot;, seguido de informacion adicional: &quot;Antes de que pueda iniciar sesi&oacute;n, debe confirmar su direcci&oacute;n de correo electr&oacute;nico a trav&eacute;s del correo electr&oacute;nico que le acabamos de enviar.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Entrar al siguiente link desde su <strong>navegador privado</strong>:<br />
+https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;service=mail&amp;sacu=1&amp;rip=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin<br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar la pagina de inicio de sesion de gmail.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Ingresar:</p>
+
+<ul>
+	<li>correo existente en el campo de correo electronico o telefono.</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar el campo del formulario lleno.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Hacer click en &quot;Siguiente&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debe poder visualizar la pagina para ingresar la contrase&ntilde;a para iniciar sesion en gmail.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Ingresar:</p>
+
+<ul>
+	<li>contrase&ntilde;a&nbsp;existente en el campo introduce tu contrase&ntilde;a</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar el formulario lleno.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Hacer click en &quot;Siguiente&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar la bandeja de entrada del correo electronico.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el primer mensaje en la bandeja de entrada, este mensaje debe ser uno de Wordpress</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar un mensaje de Wordpress, con titulo de &quot;Rottweiler Academy&quot; seguido de una mensaje: &quot;Gracias por registrate!<br />
+Para completar la activaci&oacute;n de tu cuenta, haz clic en el siguiente link:&quot;<br />
+Finalizando el mensaje podra visualizar un link.<br />
+&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el link.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar el logo de la pagina en la parte superior, seguido del subtitulo: &quot;Activar su cuenta&quot;, con un mensaje: &quot;Proporcione una clave de activaci&oacute;n v&aacute;lida.&quot;.<br />
+Finalizando se&nbsp;podra visualizar un formulario lleno con un campo con el titulo: &quot;calve de activacion&quot; y en la parte inferior izquierda&nbsp;un boton que dice: &quot;Activar&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton: &quot;Activar&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar una nueva vista con el logo de la pagina en la parte superior, seguido&nbsp;del subtitulo: &quot;Cuenta activada&quot;, seguido de informacion adicional: &quot;&iexcl;Tu cuenta ya est&aacute; activa!&quot;. Seguido de esto se podra ver un mensaje: &quot;&iexcl;Su cuenta fue activada con &eacute;xito! Ahora puede iniciar sesi&oacute;n con el nombre de usuario y la contrase&ntilde;a que proporcion&oacute; cuando se registr&oacute;.&quot;<br />
+Al finalizar se podra ver un texto de color amarillo que dira:&quot;Entra&nbsp;al sistema&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="20" name="803 Validar que no se puede activar una cuenta con un email falso.">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[3]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el NO funcionamiento del proceso de registro de cuenta con un correo inexistente.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/<br />
+&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton: &quot;Registrarse&quot;, situado en la esquina superior derecha de la pagina de inicio.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar una nueva vista en su navegador con el logo de la pagina en la parte superior, seguida del titulo: &quot;Crear Cuenta&quot;, con distintos campo para llenar como ser: correo electronico, contrase&ntilde;a, confirmar contrase&ntilde;a,&nbsp;&nbsp;nombre, apellido, nombre de usuario.<br />
+En la parte inferior se debera ver un boton que diga &quot;Crear Cuenta&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Ingresar:</p>
+
+<ul>
+	<li>&quot;correofalso@correofalso.com&quot; en el campo correo electronico.</li>
+	<li>&quot;test.0123&quot; en el campo contrase&ntilde;a.</li>
+	<li>&quot;test.0123&quot; en el campo confirmar contrase&ntilde;a.</li>
+	<li>&quot;test.0123&quot; en el campo nombre.</li>
+	<li>&quot;test.9876&quot; en el campo apellido.</li>
+	<li>&quot;test.test.0123&quot; en el campo nombre de usuario.</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar todos los campos del formulario llenos,</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton &quot;Crear Cuenta&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar una nueva vista con el logo de la pagina en la parte superior, seguido del subtitulo: &quot;&iexcl;Casi est&aacute;mos all&iacute;!&quot;, seguido de informacion adicional: &quot;Antes de que pueda iniciar sesi&oacute;n, debe confirmar su direcci&oacute;n de correo electr&oacute;nico a trav&eacute;s del correo electr&oacute;nico que le acabamos de enviar.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>El correo es inexitente, no podra confirmar su direccion de correo electronico.</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="26" name="804 Validar que no se puede activar una cuena sin una clave de activacion">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[4]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el NO funcionamiento del proceso de registro de usuario sin una clave de autenticacion.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+
+<p>3. El usuario debera tener una cuenta de gmail sin registrar para esta prueba.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton: &quot;Registrarse&quot;, situado en la esquina superior derecha de la pagina de inicio.<br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar una nueva vista en su navegador con el logo de la pagina en la parte superior, seguida del titulo: &quot;Crear Cuenta&quot;, con distintos campo para llenar como ser: correo electronico, contrase&ntilde;a, confirmar contrase&ntilde;a,&nbsp;&nbsp;nombre, apellido, nombre de usuario.<br />
+En la parte inferior se debera ver un boton que diga &quot;Crear Cuenta&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Ingresar:<br />
+&nbsp; &nbsp; correo existente en el campo correo electronico.<br />
+&nbsp;&nbsp; &nbsp;&quot;test.0123&quot; en el campo contrase&ntilde;a.<br />
+&nbsp;&nbsp; &nbsp;&quot;test.0123&quot; en el campo confirmar contrase&ntilde;a.<br />
+&nbsp;&nbsp; &nbsp;&quot;test.0123&quot; en el campo nombre.<br />
+&nbsp;&nbsp; &nbsp;&quot;test.9876&quot; en el campo apellido.<br />
+&nbsp;&nbsp; &nbsp;&quot;test.test.0123&quot; en el campo nombre de usuario.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar todos los campos del formulario llenos,</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton &quot;Crear Cuenta&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar una nueva vista con el logo de la pagina en la parte superior, seguido del subtitulo: &quot;&iexcl;Casi est&aacute;mos all&iacute;!&quot;, seguido de informacion adicional: &quot;Antes de que pueda iniciar sesi&oacute;n, debe confirmar su direcci&oacute;n de correo electr&oacute;nico a trav&eacute;s del correo electr&oacute;nico que le acabamos de enviar.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Entrar al siguiente link desde su navegador privado:<br />
+https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;service=mail&amp;sacu=1&amp;rip=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar la pagina de inicio de sesion de gmail.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p><br />
+Ingresar:<br />
+&nbsp;&nbsp; &nbsp;correo existente en el campo de correo electronico o telefono.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar el campo del formulario lleno.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Hacer click en &quot;Siguiente&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debe poder visualizar la pagina para ingresar la contrase&ntilde;a para iniciar sesion en gmail.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Ingresar:<br />
+&nbsp;&nbsp; &nbsp;contrase&ntilde;a existente&nbsp;en el campo introduce tu contrase&ntilde;a</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar el formulario lleno.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Hacer click en &quot;Siguiente&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar la bandeja de entrada del correo electronico.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el primer mensaje en la bandeja de entrada, este mensaje debe ser uno de Wordpress</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar un mensaje de Wordpress, con titulo de &quot;Rottweiler Academy&quot; seguido de una mensaje: &quot;Gracias por registrate!<br />
+Para completar la activaci&oacute;n de tu cuenta, haz clic en el siguiente link:&quot;<br />
+Finalizando el mensaje podra visualizar un link.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el link.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar el logo de la pagina en la parte superior, seguido del subtitulo: &quot;Activar su cuenta&quot;, con un mensaje: &quot;Proporcione una clave de activaci&oacute;n v&aacute;lida.&quot;.<br />
+Finalizando se&nbsp;podra visualizar un formulario lleno con un campo con el titulo: &quot;calve de activacion&quot; y en la parte inferior izquierda&nbsp;un boton que dice: &quot;Activar&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Borramos el campo de: &quot;Clave de activaci&oacute;n&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar el formulario vacio.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton: &quot;Activar&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar el logo de la pagina en la parte superior, seguido del subtitulo: &quot;Activar su cuenta&quot;, con un mensaje: &quot;Proporcione una clave de activaci&oacute;n v&aacute;lida.&quot;.<br />
+Finalizando se&nbsp;podra visualizar un formulario lleno con un campo con el titulo: &quot;calve de activacion&quot; y en la parte inferior izquierda&nbsp;un boton que dice: &quot;Activar&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="41" name="805 Validar que no se puede activar una cuena con una clave de activacion erronea">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[5]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el NO funcionamiento del proceso de activacion de cuenta con una clave de activacion erronea.</p>
+]]></summary>
+	<preconditions><![CDATA[<p><br />
+1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+
+<p>3. El usuario debe tener un correo electronico gmail sin registrar en esta pagina.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton: &quot;Registrarse&quot;, situado en la esquina superior derecha de la pagina de inicio.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar una nueva vista en su navegador con el logo de la pagina en la parte superior, seguida del titulo: &quot;Crear Cuenta&quot;, con distintos campo para llenar como ser: correo electronico, contrase&ntilde;a, confirmar contrase&ntilde;a,&nbsp;&nbsp;nombre, apellido, nombre de usuario.<br />
+En la parte inferior se debera ver un boton que diga &quot;Crear Cuenta&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Ingresar:<br />
+&nbsp;&nbsp; &nbsp;correo existente en el campo correo electronico.<br />
+&nbsp;&nbsp; &nbsp;&quot;test.0123&quot; en el campo contrase&ntilde;a.<br />
+&nbsp;&nbsp; &nbsp;&quot;test.0123&quot; en el campo confirmar contrase&ntilde;a.<br />
+&nbsp;&nbsp; &nbsp;&quot;test.0123&quot; en el campo nombre.<br />
+&nbsp;&nbsp; &nbsp;&quot;test.9876&quot; en el campo apellido.<br />
+&nbsp;&nbsp; &nbsp;&quot;test.test.0123&quot; en el campo nombre de usuario.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar todos los campos del formulario llenos,</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton &quot;Crear Cuenta&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar una nueva vista con el logo de la pagina en la parte superior, seguido del subtitulo: &quot;&iexcl;Casi est&aacute;mos all&iacute;!&quot;, seguido de informacion adicional: &quot;Antes de que pueda iniciar sesi&oacute;n, debe confirmar su direcci&oacute;n de correo electr&oacute;nico a trav&eacute;s del correo electr&oacute;nico que le acabamos de enviar.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Entrar al siguiente link desde su navegador privado:<br />
+https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;service=mail&amp;sacu=1&amp;rip=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar la pagina de inicio de sesion de gmail.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Ingresar:<br />
+&nbsp;&nbsp; &nbsp;correo existente en el campo de correo electronico o telefono.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar el campo del formulario lleno.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Hacer click en &quot;Siguiente&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debe poder visualizar la pagina para ingresar la contrase&ntilde;a para iniciar sesion en gmail.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Ingresar:<br />
+&nbsp;&nbsp; &nbsp;contrase&ntilde;a existente en el campo introduce tu contrase&ntilde;a</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar el formulario lleno.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Hacer click en &quot;Siguiente&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar la bandeja de entrada del correo electronico.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el primer mensaje en la bandeja de entrada, este mensaje debe ser uno de Wordpress</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar un mensaje de Wordpress, con titulo de &quot;Rottweiler Academy&quot; seguido de una mensaje: &quot;Gracias por registrate!<br />
+Para completar la activaci&oacute;n de tu cuenta, haz clic en el siguiente link:&quot;<br />
+Finalizando el mensaje podra visualizar un link.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el link.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar el logo de la pagina en la parte superior, seguido del subtitulo: &quot;Activar su cuenta&quot;, con un mensaje: &quot;Proporcione una clave de activaci&oacute;n v&aacute;lida.&quot;.<br />
+Finalizando se&nbsp;podra visualizar un formulario lleno con un campo con el titulo: &quot;calve de activacion&quot; y en la parte inferior izquierda&nbsp;un boton que dice: &quot;Activar&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Ingresa &quot;0.123456789&quot; en el campo de&nbsp;&quot;Clave de activaci&oacute;n&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar el formulario lleno.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton: &quot;Activar&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar el logo de la pagina en la parte superior, seguido del subtitulo: &quot;Activar su cuenta&quot;, con un mensaje de error: &quot;Clave de activaci&oacute;n no v&aacute;lida.&quot; y un texto: &quot;Proporcione una clave de activaci&oacute;n v&aacute;lida.&quot;.<br />
+Finalizando se&nbsp;podra visualizar un formulario vacio con un campo con el titulo: &quot;clave de activacion&quot; y en la parte inferior izquierda&nbsp;un boton que dice: &quot;Activar&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="55" name="806 Validar que no se puede activar una cuenta con una correo y nombre de usuario ya activado">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[6]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el NO&nbsp;funcionamiento del proceso de activacion de cuenta, con una cuenta de correo electronico ya existente y un nombre de usuario ya existente.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton: &quot;Registrarse&quot;, situado en la esquina superior derecha de la pagina de inicio.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar una nueva vista en su navegador con el logo de la pagina en la parte superior, seguida del titulo: &quot;Crear Cuenta&quot;, con distintos campo para llenar como ser: correo electronico, contrase&ntilde;a, confirmar contrase&ntilde;a,&nbsp;&nbsp;nombre, apellido, nombre de usuario.<br />
+En la parte inferior se debera ver un boton que diga &quot;Crear Cuenta&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Ingresar:<br />
+&nbsp;&nbsp; &nbsp;&quot;soyuntest.0123@gmail.com&quot; en el campo correo electronico.<br />
+&nbsp;&nbsp; &nbsp;&quot;test.0123&quot; en el campo contrase&ntilde;a.<br />
+&nbsp;&nbsp; &nbsp;&quot;test.0123&quot; en el campo confirmar contrase&ntilde;a.<br />
+&nbsp;&nbsp; &nbsp;&quot;test.0123&quot; en el campo nombre.<br />
+&nbsp;&nbsp; &nbsp;&quot;test.9876&quot; en el campo apellido.<br />
+&nbsp;&nbsp; &nbsp;&quot;test.test.0123&quot; en el campo nombre de usuario.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Debera poder visualizar todos los campos del formulario llenos,</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton &quot;Crear Cuenta&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar una nueva vista en su navegador con el logo de la pagina en la parte superior, seguida del titulo: &quot;Crear Cuenta&quot;, con distintos campo para llenar como ser: correo electronico, contrase&ntilde;a, confirmar contrase&ntilde;a,&nbsp;&nbsp;nombre, apellido, nombre de usuario.<br />
+Con dos mensajes de error:</p>
+
+<ol>
+	<li>&quot;Lo siento, esta direcci&oacute;n de email ya est&aacute; en uso&quot; este se ubicara encima del campo de correo electronico.</li>
+	<li>&quot;Nombre de Usuario ya se ha tomado.&quot;&nbsp;este se ubicara encima del campo de Nombre de Usuario.</li>
+</ol>
+
+<p>En la parte inferior se debera ver un boton que diga &quot;Crear Cuenta&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="61" name="807 Validar que no se puede activar una cuena sin haber llenado el formulario previamente.">
+	<node_order><![CDATA[1006]]></node_order>
+	<externalid><![CDATA[7]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el NO funcionamiento del proceso de activacion de cuenta sin llenar el formulario.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton: &quot;Registrarse&quot;, situado en la esquina superior derecha de la pagina de inicio.<br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar una nueva vista en su navegador con el logo de la pagina en la parte superior, seguida del titulo: &quot;Crear Cuenta&quot;, con distintos campo para llenar como ser: correo electronico, contrase&ntilde;a, confirmar contrase&ntilde;a,&nbsp;&nbsp;nombre, apellido, nombre de usuario.<br />
+En la parte inferior se debera ver un boton que diga &quot;Crear Cuenta&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el boton &quot;Crear Cuenta&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar una nueva vista en su navegador con el logo de la pagina en la parte superior, seguida del titulo: &quot;Crear Cuenta&quot;, con distintos campo para llenar como ser: correo electronico, contrase&ntilde;a, confirmar contrase&ntilde;a,&nbsp;&nbsp;nombre, apellido, nombre de usuario.<br />
+Con mensajes de error:</p>
+
+<ol>
+	<li>&quot;Por favor, introduce una direcci&oacute;n de correo electr&oacute;nico v&aacute;lida.&quot; este se ubicara encima del campo de correo electronico.</li>
+	<li>&quot;Aseg&uacute;rese de ingresar su contrase&ntilde;a dos veces.&quot; este se ubicara encima del campo de Contrase&ntilde;a.</li>
+	<li>&quot;Este es un campo obligatorio.&quot; este se ubicara encima del campo de nombre.</li>
+	<li>&quot;Este es un campo obligatorio.&quot; este se ubicara encima del campo de apellido.</li>
+	<li>&quot;Este es un campo obligatorio.&quot;&nbsp;este se ubicara encima del campo de Nombre de Usuario.</li>
+</ol>
+
+<p>En la parte inferior se debera ver un boton que diga &quot;Crear Cuenta&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

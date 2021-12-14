@@ -1,0 +1,1795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase internalid="4" name="1001 Validar acceder al Perfil por el Boton del Side Bar">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[1]]></externalid>
+	<version><![CDATA[2]]></version>
+	<summary><![CDATA[<p>Validar el acceso de un usuario hacia su perfil por medio de las opciones del side bar</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales: <strong>Cuenta </strong>: soyuntest.0123@gmail.com <strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Precionar el boton &quot;Mi perfil&quot;&nbsp;del la barra de navegacion lateral izquiera&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Los datos de tu perfil con los&nbsp;datos de la cuenta(nombre, apellido y nombre de usuario), la fecha que te uniste</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="237" name="1002 Validar acceder al Perfil por el boton del Nav Bar">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[13]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar el acceso de un usuario hacia su perfil por medio de las opciones que se encuentran habilitadas para un usuario en su perfil&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Presionar el nombre del perfil de la parte superior derecha o el icono de flecha hacia abajo, o la foto de perfil(ya que estas tres opciones tienen el mismo funcionamiento)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestran las opciones en una pestana&ntilde;a deplegable que son Perfil ,Cuenta ,Mensajes ,Experiencias ,Cursos ,Fotos, Invitaciones de Correo el... y Cierre de sesi&oacute;n.&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton Perfil o la opcion Ver que aparece al hacer hover a este&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Los datos de tu perfil con los&nbsp;datos de la cuenta(nombre, apellido y nombre de usuario), la fecha que te uniste</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="256" name="1003 Validar acceder al apartado de Mensajes por el boton del Nav Bar">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[14]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar el acceso de un usuario hacia el apartado de Mensajes por medio de las opciones que se encuentran habilitadas para un usuario</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+
+<p>&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Presionar el nombre del perfil de la parte superior derecha o el icono de flecha hacia abajo, o la foto de perfil(ya que estas tres opciones tienen el mismo funcionamiento)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestran las opciones en una pestana&ntilde;a deplegable que son Perfil ,Cuenta ,Mensajes ,Experiencias ,Cursos ,Fotos, Invitaciones de Correo el... y Cierre de sesi&oacute;n.&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton Mensajes o la opcion Mensajes que aparece al hacer hover a este&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra el apartado de mensajes con los mensajes que se han enviado y si es que no hay ningun mensjae se muestra una imagen con un mensaje de que aun no hay mensajes nuevos, al lado se muestran los mensajes de una conversacion que tengas mas reciente y si es que no tienes, tiene la opcion de enviar mensaje nuevo</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="265" name="1004 Validar enviar un mensaje nuevo mensaje">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[15]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar el enviar un nuevo&nbsp;mensaje por medio del Aparatado de Mensajes</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Presionar el nombre del perfil de la parte superior derecha o el icono de flecha hacia abajo, o la foto de perfil(ya que estas tres opciones tienen el mismo funcionamiento)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestran las opciones en una pestana&ntilde;a deplegable que son Perfil ,Cuenta ,Mensajes ,Experiencias ,Cursos ,Fotos, Invitaciones de Correo el... y Cierre de sesi&oacute;n.&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton Mensajes o la opcion Mensajes que aparece al hacer hover a este&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra el apartado de mensajes con los mensajes que se han enviado y si es que no hay ningun mensjae se muestra una imagen con un mensaje de que aun no hay mensajes nuevos, al lado se muestran los mensajes de una conversacion que tengas mas reciente y si es que no tienes, tiene la opcion de enviar mensaje nuevo</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Presionar el icono de&nbsp;mensaje nuevo que se encuentra en la parte media de la pantalla&nbsp; al lado de label de Mensaje&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debe mostrar en la aparte media derecha para poder escribir un nuevo mensaje</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Insertar en la caja de entrada con el texto &quot;Escriba los nombres de una o mas personas&quot; el texto &quot;Samuel&quot; y seleccionar la Opcion Samuel</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Insertar en la caja de entrada con el texto &quot;Escribir mensaje&quot; el texto &quot;hola&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton &quot;Enviar&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostrara tu conversaci&oacute;n con Samuel y el nuevo mensaje que has enviado&nbsp;</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="338" name="1005 Verificar enviar un mensaje nuevo sin destinatario">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[20]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verificar el que no se pueda enviar un nuevo mensaje por medio del Aparatado de Mensajes si es que este no se agrego un destinatario&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Presionar el nombre del perfil de la parte superior derecha o el icono de flecha hacia abajo, o la foto de perfil(ya que estas tres opciones tienen el mismo funcionamiento)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestran las opciones en una pestana&ntilde;a deplegable que son Perfil ,Cuenta ,Mensajes ,Experiencias ,Cursos ,Fotos, Invitaciones de Correo el... y Cierre de sesi&oacute;n.&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton Mensajes o la opcion Mensajes que aparece al hacer hover a este&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra el apartado de mensajes con los mensajes que se han enviado y si es que no hay ningun mensjae se muestra una imagen con un mensaje de que aun no hay mensajes nuevos, al lado se muestran los mensajes de una conversacion que tengas mas reciente y si es que no tienes, tiene la opcion de enviar mensaje nuevo</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Presionar el icono de&nbsp;mensaje nuevo que se encuentra en la parte media de la pantalla&nbsp; al lado de label de Mensaje&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debe mostrar en la aparte media derecha para poder escribir un nuevo mensaje</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Insertar en la caja de entrada con el texto &quot;Escribir mensaje&quot; el texto &quot;hola&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton &quot;Enviar&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostrara un mensaje de alerta diciendo &quot;Agregue al menos un destinatario&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="943" name="1006 Verificar enviar un mensaje nuevo sin contenido">
+	<node_order><![CDATA[6]]></node_order>
+	<externalid><![CDATA[83]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verificar el que no se pueda enviar un nuevo mensaje por medio del Aparatado de Mensajes si es que este no tiene agregado contenido alguno&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Presionar el nombre del perfil de la parte superior derecha o el icono de flecha hacia abajo, o la foto de perfil(ya que estas tres opciones tienen el mismo funcionamiento)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestran las opciones en una pestana&ntilde;a deplegable que son Perfil ,Cuenta ,Mensajes ,Experiencias ,Cursos ,Fotos, Invitaciones de Correo el... y Cierre de sesi&oacute;n.&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton Mensajes o la opcion Mensajes que aparece al hacer hover a este&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra el apartado de mensajes con los mensajes que se han enviado y si es que no hay ningun mensjae se muestra una imagen con un mensaje de que aun no hay mensajes nuevos, al lado se muestran los mensajes de una conversacion que tengas mas reciente y si es que no tienes, tiene la opcion de enviar mensaje nuevo</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Presionar el icono de&nbsp;mensaje nuevo que se encuentra en la parte media de la pantalla&nbsp; al lado de label de Mensaje&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debe mostrar en la aparte media derecha para poder escribir un nuevo mensaje</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Insertar en la caja de entrada con el texto &quot;Escribir mensaje&quot; el texto &quot;hola&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton &quot;Enviar&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostrara un mensaje de alerta diciendo &quot;Agregue al menos un destinatario&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="278" name="1007 Validar marcar como no leído una conversación">
+	<node_order><![CDATA[7]]></node_order>
+	<externalid><![CDATA[16]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que&nbsp;un usuario Puede marcar una conversacion como no leida</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Presionar el nombre del perfil de la parte superior derecha o el icono de flecha hacia abajo, o la foto de perfil(ya que estas tres opciones tienen el mismo funcionamiento)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestran las opciones en una pestana&ntilde;a deplegable que son Perfil ,Cuenta ,Mensajes ,Experiencias ,Cursos ,Fotos, Invitaciones de Correo el... y Cierre de sesi&oacute;n.&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton Mensajes o la opcion Mensajes que aparece al hacer hover a este&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra el apartado de mensajes con los mensajes que se han enviado y si es que no hay ningun mensjae se muestra una imagen con un mensaje de que aun no hay mensajes nuevos, al lado se muestran los mensajes de una conversacion que tengas mas reciente y si es que no tienes, tiene la opcion de enviar mensaje nuevo</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Presionar el icono de&nbsp;mensaje nuevo que se encuentra en la parte media de la pantalla&nbsp; al lado de label de Mensaje&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debe mostrar en la aparte media derecha para poder escribir un nuevo mensaje</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Insertar en la caja de entrada con el texto &quot;Escriba los nombres de una o mas personas&quot; el texto &quot;Samuel&quot; y seleccionar la Opcion Samuel</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Insertar en la caja de entrada con el texto &quot;Escribir mensaje&quot; el texto &quot;hola&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton &quot;Enviar&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostrara tu conversaci&oacute;n con Samuel y el nuevo mensaje que has enviado&nbsp;</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>Precionar la opcion de tres puntos en la parte superior derecha de la seccion de mensajes</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostran las opciones en una pesta&ntilde;a desplegable que son Marcar como no leido, Ocultar conversacion y Borrar tus mensajes&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[13]]></step_number>
+	<actions><![CDATA[<p>Presionar la opcion marcar como no leido&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>aparecera un mensaje de que se esta realizando la funcion diciendo marcando como no leido e inmediatamente realizado esto se vera en la parte en la que se encuentrarn todas tus conversaciones marcada con un circulo amarillo al lado de la fecha de esta conversacion que significa que no has leido la conversacion</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="293" name="1008 Validar ocultar una conversación ">
+	<node_order><![CDATA[8]]></node_order>
+	<externalid><![CDATA[17]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar un usuario puede ocultar una cornversacion&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Presionar el nombre del perfil de la parte superior derecha o el icono de flecha hacia abajo, o la foto de perfil(ya que estas tres opciones tienen el mismo funcionamiento)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestran las opciones en una pestana&ntilde;a deplegable que son Perfil ,Cuenta ,Mensajes ,Experiencias ,Cursos ,Fotos, Invitaciones de Correo el... y Cierre de sesi&oacute;n.&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton Mensajes o la opcion Mensajes que aparece al hacer hover a este&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra el apartado de mensajes con los mensajes que se han enviado y si es que no hay ningun mensjae se muestra una imagen con un mensaje de que aun no hay mensajes nuevos, al lado se muestran los mensajes de una conversacion que tengas mas reciente y si es que no tienes, tiene la opcion de enviar mensaje nuevo</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Presionar el icono de&nbsp;mensaje nuevo que se encuentra en la parte media de la pantalla&nbsp; al lado de label de Mensaje&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debe mostrar en la aparte media derecha para poder escribir un nuevo mensaje</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Insertar en la caja de entrada con el texto &quot;Escriba los nombres de una o mas personas&quot; el texto &quot;Samuel&quot; y seleccionar la Opcion Samuel</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Insertar en la caja de entrada con el texto &quot;Escribir mensaje&quot; el texto &quot;hola&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton &quot;Enviar&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostrara tu conversaci&oacute;n con Samuel y el nuevo mensaje que has enviado&nbsp;</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>Precionar la opcion de tres puntos en la parte superior derecha de la seccion de mensajes</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostran las opciones en una pesta&ntilde;a desplegable que son Marcar como no leido, Ocultar conversacion y Borrar tus mensajes&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[13]]></step_number>
+	<actions><![CDATA[<p>Presionar la opcion Ocultar conversacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>aparecera un mensaje de que se esta realizando la funcion diciendo ocultar la conversaci&oacute;n e inmediatamente realizado esto se cerrara la conversaci&oacute;n&nbsp;y se debera ocultar tambien la conversacion de la columna de conversaciones</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="323" name="1009 Validar ocultar una conversación por medio de las opciones de la columna de Conversaciones">
+	<node_order><![CDATA[9]]></node_order>
+	<externalid><![CDATA[19]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar un usuario puede ocultar una cornversacion&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Presionar el nombre del perfil de la parte superior derecha o el icono de flecha hacia abajo, o la foto de perfil(ya que estas tres opciones tienen el mismo funcionamiento)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestran las opciones en una pestana&ntilde;a deplegable que son Perfil ,Cuenta ,Mensajes ,Experiencias ,Cursos ,Fotos, Invitaciones de Correo el... y Cierre de sesi&oacute;n.&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton Mensajes o la opcion Mensajes que aparece al hacer hover a este&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra el apartado de mensajes con los mensajes que se han enviado y si es que no hay ningun mensjae se muestra una imagen con un mensaje de que aun no hay mensajes nuevos, al lado se muestran los mensajes de una conversacion que tengas mas reciente y si es que no tienes, tiene la opcion de enviar mensaje nuevo</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Presionar el icono de&nbsp;mensaje nuevo que se encuentra en la parte media de la pantalla&nbsp; al lado de label de Mensaje&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debe mostrar en la aparte media derecha para poder escribir un nuevo mensaje</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Insertar en la caja de entrada con el texto &quot;Escriba los nombres de una o mas personas&quot; el texto &quot;Samuel&quot; y seleccionar la Opcion Samuel</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Insertar en la caja de entrada con el texto &quot;Escribir mensaje&quot; el texto &quot;hola&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton &quot;Enviar&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostrara tu conversaci&oacute;n con Samuel y el nuevo mensaje que has enviado&nbsp;</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>Posicionar el mouse sobre la conversacion con Samuel en la columna de Mensajes</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>aparecera un mensaje de que se esta realizando la funcion diciendo ocultar la conversaci&oacute;n e inmediatamente realizado esto se cerrara la conversaci&oacute;n&nbsp;y se debera ocultar tambien la conversacion de la columna de conversaciones</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="308" name="1010 Validar borrar tus mensajes de una conversación ">
+	<node_order><![CDATA[10]]></node_order>
+	<externalid><![CDATA[18]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar el acceso de un usuario hacia la su perfil por medio de las opciones que se encuentran habilitadas para un usuario en su perfil&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Presionar el nombre del perfil de la parte superior derecha o el icono de flecha hacia abajo, o la foto de perfil(ya que estas tres opciones tienen el mismo funcionamiento)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestran las opciones en una pestana&ntilde;a deplegable que son Perfil ,Cuenta ,Mensajes ,Experiencias ,Cursos ,Fotos, Invitaciones de Correo el... y Cierre de sesi&oacute;n.&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton Mensajes o la opcion Mensajes que aparece al hacer hover a este&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra el apartado de mensajes con los mensajes que se han enviado y si es que no hay ningun mensjae se muestra una imagen con un mensaje de que aun no hay mensajes nuevos, al lado se muestran los mensajes de una conversacion que tengas mas reciente y si es que no tienes, tiene la opcion de enviar mensaje nuevo</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Presionar el icono de&nbsp;mensaje nuevo que se encuentra en la parte media de la pantalla&nbsp; al lado de label de Mensaje&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debe mostrar en la aparte media derecha para poder escribir un nuevo mensaje</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Insertar en la caja de entrada con el texto &quot;Escriba los nombres de una o mas personas&quot; el texto &quot;Samuel&quot; y seleccionar la Opcion Samuel</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Insertar en la caja de entrada con el texto &quot;Escribir mensaje&quot; el texto &quot;hola&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton &quot;Enviar&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostrara tu conversaci&oacute;n con Samuel y el nuevo mensaje que has enviado&nbsp;</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>Precionar la opcion de tres puntos en la parte superior derecha de la seccion de mensajes</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostran las opciones en una pesta&ntilde;a desplegable que son Marcar como no leido, Ocultar conversacion y Borrar tus mensajes&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[13]]></step_number>
+	<actions><![CDATA[<p>Presionar la opcion Borrar tus mensajes</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>aparecera un mensaje de que se esta realizando la funcion diciendo eliminando mensajes&nbsp;e inmediatamente realizado esto se eliminaran los mensajes de la conversacion pero seguira la fecha de envio de estos, solo que la informacion de estos mensajes sera reemplazada por comentario &quot;Este mensaje fue eliminado&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="405" name="1011 Validar acceder a los cursos del usuario por el Side Bar">
+	<node_order><![CDATA[11]]></node_order>
+	<externalid><![CDATA[28]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar el acceso de un usuario hacia&nbsp;sus Cursos&nbsp;por medio de las opciones que se encuentran habilitadas en la barra de navegacion lateral</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Precionar el boton &quot;Mis cursos&quot;&nbsp;del la barra de navegacion lateral izquiera&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el perfil del usuario en el paratado de mis cursos y a continuacion con los cursos en los cuales este esta inscrito, en caso de que no tenga cursos deebera aparecer un boton para poder acceder al apartado de cursos de la aplicacion&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="925" name="1012 Validar acceder a las experiencias del usuario por el Side Bar">
+	<node_order><![CDATA[12]]></node_order>
+	<externalid><![CDATA[81]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar el acceso de un usuario hacia&nbsp;sus Experiencias por medio de las opciones que se encuentran habilitadas en la barra de navegacion lateral</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Precionar el boton &quot;Experiencias&quot;&nbsp;del la barra de navegacion lateral izquiera&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el perfil del usuario en el paratado de mis experiencias y a continuacion con las experiencias&nbsp;lascuales tiene el usuario, en caso de que no tenga experiencias registradas se muestra un mensaje de que no tiene experiencias&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="934" name="1013 Validar acceder a las experiencias del usuario por el Nav Bar">
+	<node_order><![CDATA[13]]></node_order>
+	<externalid><![CDATA[82]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar el acceso de un usuario hacia&nbsp;sus Experiencias por medio de las opciones que se encuentran habilitadas en la barra de navegacion</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Presionar el nombre del perfil de la parte superior derecha o el icono de flecha hacia abajo, o la foto de perfil(ya que estas tres opciones tienen el mismo funcionamiento)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestran las opciones en una pestana&ntilde;a deplegable que son Perfil ,Cuenta ,Mensajes ,Experiencias ,Cursos ,Fotos, Invitaciones de Correo el... y Cierre de sesi&oacute;n.&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Presionar la opcion &quot;Experiencias&quot; o la opcion &quot;Mis experiencias&quot; que aparece al hacer hover a este&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el perfil del usuario en el paratado de mis experiencias y a continuacion con las experiencias&nbsp;lascuales tiene el usuario, en caso de que no tenga experiencias registradas se muestra un mensaje de que no tiene experiencias&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="1019" name="1014 Validar El acceso al apartado de Edición de perfil desde el Perfil">
+	<node_order><![CDATA[14]]></node_order>
+	<externalid><![CDATA[90]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar El acceso al apartado de Edicion de perfil por medio del la pagina Perfil</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales: <strong>Cuenta </strong>: soyuntest.0123@gmail.com <strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Precionar el boton &quot;Mi perfil&quot;&nbsp;del la barra de navegacion lateral izquiera&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Los datos de tu perfil con los&nbsp;datos de la cuenta(nombre, apellido y nombre de usuario), la fecha que te uniste y un boton &quot;Editar Perfil&quot; en la parte derecha centrar de la pantalla&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Precionar el boton &quot;Editar perfil&quot;&nbsp;&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostrara el apartado de Edicion de perfil con el titulo &quot;Editar el perfil&quot; que este contrendra 3 opciones que seran &quot;Editar&quot;, &quot;Foto de perfil&quot; y &quot;foto de portada&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="1010" name="1015 Validar El acceso al apartado de Edición de perfil desde el Nav bar">
+	<node_order><![CDATA[15]]></node_order>
+	<externalid><![CDATA[89]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar El acceso al apartado de Edicion de perfil por medio de las opciones del Nav bar</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales: <strong>Cuenta </strong>: soyuntest.0123@gmail.com <strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Presionar el nombre del perfil de la parte superior derecha o el icono de flecha hacia abajo, o la foto de perfil(ya que estas tres opciones tienen el mismo funcionamiento)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Los datos de tu perfil con los&nbsp;datos de la cuenta(nombre, apellido y nombre de usuario), la fecha que te uniste y un boton &quot;Editar Perfil&quot; en la parte derecha centrar de la pantalla&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Hacer hover en la opcion de &quot;Perfil&quot;&nbsp;y seleccionar la opcion&nbsp;&nbsp;&quot;Editar&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostrara el apartado de Edicion de perfil con el titulo &quot;Editar el perfil&quot; que este contrendra 3 opciones que seran &quot;Editar&quot;, &quot;Foto de perfil&quot; y &quot;foto de portada&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="1029" name="1016 Validar El cambio de foto de perfil">
+	<node_order><![CDATA[16]]></node_order>
+	<externalid><![CDATA[91]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar el cambio de la foto de perfil de la cuenta</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales: <strong>Cuenta </strong>: soyuntest.0123@gmail.com <strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+
+<p>4. Foto jpg cualquiera</p>
+
+<p>&nbsp; &nbsp;Recomendaciones</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;https://thumbs.dreamstime.com/b/imagen-an%C3%B3nima-del-perfil-del-hombre-de-negocios-57594504.jpg</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;https://us.123rf.com/450wm/kritchanut/kritchanut1406/kritchanut140600088/29213190-foto-de-perfil-empresario-silueta-avatar.jpg?ver=6</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Presionar el nombre del perfil de la parte superior derecha o el icono de flecha hacia abajo, o la foto de perfil(ya que estas tres opciones tienen el mismo funcionamiento)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Los datos de tu perfil con los&nbsp;datos de la cuenta(nombre, apellido y nombre de usuario), la fecha que te uniste y un boton &quot;Editar Perfil&quot; en la parte derecha centrar de la pantalla&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Hacer hover en la opcion de &quot;Perfil&quot;&nbsp;y seleccionar la opcion&nbsp;&nbsp;&quot;Editar&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostrara el apartado de Edicion de perfil con el titulo &quot;Editar el perfil&quot; que este contrendra 3 opciones que seran &quot;Editar&quot;, &quot;Foto de perfil&quot; y &quot;foto de portada&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Presionar la opcion &quot;Foto de perfil&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostrara el subtitulo de &quot;Cambiar foto de perfil&quot; con las opciones de &quot;Subir&quot;,&nbsp;&quot;Toma una foto&quot; y &quot;Eliminar&quot;(esto en caso de que tengas una foto de perfil) y el boton de &quot;Seleccione su archivo&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton&nbsp;&quot;Seleccione su archivo&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Le mostrara sus archivos del computador</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Seleccionara una de las dos imagenes recomendadas</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se cargara la imagen y se mostrara un apartado para recortar la imagen con los botones de &quot;Cortar foto&quot; y &quot;Cancelar&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Modificara la imagen para el recorte y presionara&nbsp;el boton &quot;Cortar foto&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aparecera un mensaje &quot;Tu nueva foto de perfil se ha subido con extito&quot; y se actualizara tu foto de perfil que aparece en la parte superior derecha&nbsp; en la barra de navegacion</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="1042" name="1017 Validar El cambio de foto de portada">
+	<node_order><![CDATA[17]]></node_order>
+	<externalid><![CDATA[92]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar el cambio de la foto de portada de la cuenta</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales: <strong>Cuenta </strong>: soyuntest.0123@gmail.com <strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+
+<p>4. Foto jpg cualquiera</p>
+
+<p>&nbsp; &nbsp;Recomendaciones</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;https://fondosmil.com/fondo/9910.jpg</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;https://fondosmil.com/fondo/31836.png</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos y mis experiencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Presionar el nombre del perfil de la parte superior derecha o el icono de flecha hacia abajo, o la foto de perfil(ya que estas tres opciones tienen el mismo funcionamiento)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Los datos de tu perfil con los&nbsp;datos de la cuenta(nombre, apellido y nombre de usuario), la fecha que te uniste y un boton &quot;Editar Perfil&quot; en la parte derecha centrar de la pantalla&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Hacer hover en la opcion de &quot;Perfil&quot;&nbsp;y seleccionar la opcion&nbsp;&nbsp;&quot;Editar&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostrara el apartado de Edicion de perfil con el titulo &quot;Editar el perfil&quot; que este contrendra 3 opciones que seran &quot;Editar&quot;, &quot;Foto de perfil&quot; y &quot;Foto de portada&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Presionar la opcion &quot;Foto de portada&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostrara el subtitulo de &quot;Cambiar foto de portada&quot; con el boton de &quot;Seleccione su archivo&quot; y&nbsp;el boton&nbsp;&quot;Eliminar mi foto de portada&quot;(esto en caso de que tengas una foto de portada)</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton&nbsp;&quot;Seleccione su archivo&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Le mostrara sus archivos del computador</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Seleccionara una de las dos imagenes recomendadas</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se cargara la imagen y se mostrara un auna notificacion con un mensaje &quot;Tu nueva foto de portada se s&oacute;io con exito&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

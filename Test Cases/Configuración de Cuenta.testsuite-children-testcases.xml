@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase internalid="966" name="901 Validar acceder a la configuración de la cuenta">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[85]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar el acceso de un usuario hacia el apartado de configuracion de su cuenta</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos,&nbsp;mis experiencias y en la parte inferior de esta una la opcion de Mi cuenta.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Precionar el boton &quot;Mi cuenta&quot;&nbsp;del la barra de navegacion lateral izquiera&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La&nbsp;vista configuracion de la cuenta con los apartados de informacion de acceso, preferencia de correo electronico, Privacidad, Exportar datos y Borrar la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="956" name="902 Validar La modificación de la Visibilidad del Apellido a Público">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[84]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar el La modificacion de la visibilidad del apillido de la cuenta a &quot;P&uacute;blico&quot;&nbsp;por medio de la configuracion de la cuenta</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos,&nbsp;mis experiencias y en la parte inferior de esta una la opcion de Mi cuenta.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Precionar el boton &quot;Mi cuenta&quot;&nbsp;del la barra de navegacion lateral izquiera&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La&nbsp;vista configuracion de la cuenta con los apartados de informacion de acceso, preferencia de correo electronico, Privacidad, Exportar datos y Borrar la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Presionar en el boton del apartado de &quot;Privacidad&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se&nbsp;cambio de apartado y se vera la configuracion de visibilidad del perfil con el&nbsp;Nombre y el Nombre del usuario con una visibilidad de publico por defecto y que no es cambiable y el del Apellido que si se puede alterar</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Se presionara la caja de opciones de Visibilidad de la fila del&nbsp;Apellido y seleccionar la opci&oacute;n &quot;P&oacute;ublico&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera introducir la opcion en la caja de opciones</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de Guardar los cambios</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aparecera una notificacion encima del titulo de configuracion de cuenta diciendo &quot;La configuracion de su perfil se ha guardado&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="977" name="903 Validar La modificación de la Visibilidad del Apellido a Todos los miembros">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[86]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar el La modificacion de la visibilidad del apillido de la cuenta a &quot;Todos los miembros&quot; por medio de la configuracion de la cuenta</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos,&nbsp;mis experiencias y en la parte inferior de esta una la opcion de Mi cuenta.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Precionar el boton &quot;Mi cuenta&quot;&nbsp;del la barra de navegacion lateral izquiera&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La&nbsp;vista configuracion de la cuenta con los apartados de informacion de acceso, preferencia de correo electronico, Privacidad, Exportar datos y Borrar la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Presionar en el boton del apartado de &quot;Privacidad&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se&nbsp;cambio de apartado y se vera la configuracion de visibilidad del perfil con el&nbsp;Nombre y el Nombre del usuario con una visibilidad de publico por defecto y que no es cambiable y el del Apellido que si se puede alterar</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Se presionara la caja de opciones de Visibilidad de la fila del&nbsp;Apellido y seleccionar la opci&oacute;n &quot;Todos los miembros&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera introducir la opcion en la caja de opciones</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de Guardar los cambios</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aparecera una notificacion encima del titulo de configuracion de cuenta diciendo &quot;La configuracion de su perfil se ha guardado&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="988" name="904 Validar La modificación de la Visibilidad del Apellido a Solo yo">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[87]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar el La modificacion de la visibilidad del apillido de la cuenta a &quot;Solo yo&quot; por medio de la configuracion de la cuenta</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos,&nbsp;mis experiencias y en la parte inferior de esta una la opcion de Mi cuenta.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Precionar el boton &quot;Mi cuenta&quot;&nbsp;del la barra de navegacion lateral izquiera&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La&nbsp;vista configuracion de la cuenta con los apartados de informacion de acceso, preferencia de correo electronico, Privacidad, Exportar datos y Borrar la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Presionar en el boton del apartado de &quot;Privacidad&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se&nbsp;cambio de apartado y se vera la configuracion de visibilidad del perfil con el&nbsp;Nombre y el Nombre del usuario con una visibilidad de publico por defecto y que no es cambiable y el del Apellido que si se puede alterar</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Se presionara la caja de opciones de Visibilidad de la fila del&nbsp;Apellido y seleccionar la opci&oacute;n &quot;Solo yo&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debera introducir la opcion en la caja de opciones</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de Guardar los cambios</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aparecera una notificacion encima del titulo de configuracion de cuenta diciendo &quot;La configuracion de su perfil se ha guardado&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="999" name="905 Validar Realizar una exportación de los datos">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[88]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar la exportacion de los datos&nbsp;por medio de la configuracion de la cuenta</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Para ejecutar el caso de prueba usar las siguientes credenciales:&nbsp;<strong>Cuenta&nbsp;</strong>: soyuntest.0123@gmail.com&nbsp;<strong>Contrase&ntilde;a</strong>: soyuntest.0123</p>
+
+<p>2. Conexi&oacute;n a internet</p>
+
+<p>3. Navegador Chrome&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a&nbsp;<strong><a href="https://www.r-acad.com/">https://www.r-acad.com/</a></strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se te deberia mostrar la pagina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Presionar el boton de &quot;Iniciar sesi&oacute;n&quot; de la parte superior derecha de la aplicacion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el formulario para rellenar las credenciales de la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Direcci&oacute;n de correo electr&oacute;nico&quot; la cuenta&nbsp;&quot;soyuntest.0123@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Ingresar en el campo de &quot;Contrase&ntilde;a&quot; la contrase&ntilde;a &quot;soyuntest.0123&ldquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La caja de texto debera aceptar el texto introducido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Presionar el bot&oacute;n de &quot;Acceder&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras y en la parte izquierda hay un barra de navegacion con las opciones de mi perfil, mis cursos,&nbsp;mis experiencias y en la parte inferior de esta una la opcion de Mi cuenta.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Precionar el boton &quot;Mi cuenta&quot;&nbsp;del la barra de navegacion lateral izquiera&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La&nbsp;vista configuracion de la cuenta con los apartados de informacion de acceso, preferencia de correo electronico, Privacidad, Exportar datos y Borrar la cuenta</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Presionar en el boton del apartado de &quot;Exportar datos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se&nbsp;cambio de apartado y se vera 8un mensaje que dira &quot;Solicite una exportaci&oacute;n de sus datos&quot; con una descripcion en lo que consiste el proceso y el boton de &quot;Solicitar exportaci&oacute;n de datos&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Se presionara el boton&nbsp;&quot;Solicitar exportaci&oacute;n de datos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se mostrara una notificacion con el mensaje de&nbsp;&quot;La solicitud fue envidada con exito&quot;&nbsp;en caso de que sea la primera vez que se lo apreta, si se lo apreto ya con anterioridad se motrara una notificacion con el mensaje &quot;Ya existe una solicitud de privacidad de usuario incompleta para esta direcci&oacute;n de correo electr&oacute;nico.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

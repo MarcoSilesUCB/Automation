@@ -38,14 +38,56 @@ Then(/^Veo el mensaje: "([^"]*)"$/) do |string|
   end
 end
 
-When(/^Clickeo en: "([^"]*)"$/) do |buttonName|
-  if buttonName =="Mes"
-    find('li[id="tribe-bar-views-option-month"]').click
-  elsif buttonName=="Semana"
-    find('li[id="tribe-bar-views-option-week"]').click
+
+Then(/^Veo el mensaje "([^"]*)"$/) do |string|
+  if string=="Eventos en diciembre 2021"
+    message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[1]/h1')
+    if message.text != string
+      raise "result should be "+string
+    end
+  elsif string=="CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
+    message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[2]/div/h2/a')
+    if message.text != string
+      raise "result should be "+string
+    end
   end
+end
+
+# Then(/^Veo el mensaje de semana "([^"]*)"$/) do |string|
+#   message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[1]/h1')
+#   if message.text != string
+#     raise "result should be "+string
+#   end
+# end
+
+Then('Veo el titulo de: {string}') do |string|
+  if string == "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
+    message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[2]/div[2]/div[1]/h1')
+    if message.text != string
+      raise "result should be "+string
+    end
+  elsif string == "MASTERCLASS “Transformación Digital para tu Negocio”"
+    message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[2]/div[2]/div[1]/h1')
+    if message.text != string
+      raise "result should be "+string
+    end
+  end
+  if string == "NOVIEMBRE 2020"
+    message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[3]/div[2]/h2[1]/span')
+    if message.text != string
+      raise "result should be "+string
+    end
+  end
+end
+
+When(/^Clickeo en: "([^"]*)"$/) do |buttonName|
   if buttonName == "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
     find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[2]/div/h2/a').click
+  elsif buttonName=="Semana"
+    find('li[id="tribe-bar-views-option-week"]').click
+  end 
+  if buttonName =="Mes"
+    find('li[id="tribe-bar-views-option-month"]').click
   end
   if buttonName == "Next Event"
     find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[5]/ul/li[2]/a').click
@@ -67,46 +109,5 @@ When(/^Clickeo en: "([^"]*)"$/) do |buttonName|
   end
   if buttonName == "1"
     find(:xpath, '/html/body/div[5]/div[1]/table/tbody/tr[1]/td[3]').click
-  end
-end
-
-Then(/^Veo el mensaje "([^"]*)"$/) do |string|
-  if string=="Eventos en diciembre 2021"
-    message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[1]/h1')
-    if message.text != string
-      raise "result should be "+string
-    end
-  elsif string=="CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
-    message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[2]/div/h2/a')
-    if message.text != string
-      raise "result should be "+string
-    end
-  end
-end
-
-Then(/^Veo el mensaje de semana "([^"]*)"$/) do |string|
-  message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[1]/h1')
-  if message.text != string
-    raise "result should be "+string
-  end
-end
-
-Then('Veo el titulo de: {string}') do |string|
-  if string == "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
-    message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[2]/div[2]/div[1]/h1')
-    if message.text != string
-      raise "result should be "+string
-    end
-  elsif string == "MASTERCLASS “Transformación Digital para tu Negocio”"
-    message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[2]/div[2]/div[1]/h1')
-    if message.text != string
-      raise "result should be "+string
-    end
-  end
-  if string == "NOVIEMBRE 2020"
-    message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[3]/div[2]/h2[1]/span')
-    if message.text != string
-      raise "result should be "+string
-    end
   end
 end
