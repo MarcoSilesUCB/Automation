@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="8745" name="Pagina Principal" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="8746" name="1201 Validar que se puede entrar al pagina principal haciendo click en el logo">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[8]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el funcionamiento del ingreso rapido a la pagina principal.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en logo de la pagina ubicado en la seccion superior izquierda de la pagina.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar:</p>
+
+<ul>
+	<li>El logo de la pagina en la parte superior izquierda junto a un menu horizontal de derecha a izquierda: inicio, cursos, eventos, carrito (el logo de un carrito), Iniciar sesion y registrarse.</li>
+	<li>Seguido de este una seccion de inicio con una imagen de portada de fondo con botones con imagenes de fondo, con textos: cursos, eventos y experiencias; de derecha a izquierda.</li>
+	<li>Seguido a este, una seccion cursos, Con un titulo de &quot;Cursos por comenzar&quot; y debajo de este cuatro columnas cada una con: un texto con una imagen de fondo, debajo de este el titulo del curso, debajo de este el profesor de curso, debajo de este el dia y empiezo del curso, debajo de este el costo del curso.</li>
+	<li>Seguido a este, una seccion de experiencias, con un titulo de &quot;Nuevas Experiencias Online&quot; y debajo de este don filas con tres columnas cada una, con el titulo de la experiencia y un boton que dice: &quot;unete&quot;&nbsp;y todo junto con una imagen de fondo. Luego de las columnas a la izquierda hay un texto que dice &quot;Mas Experiencias.&quot;.</li>
+	<li>Seguido a este, una seccion de eventos, con un titulo de &quot;EVENTOS ONLINE&quot; y debajo de este tres filas que contienen cada una: dos columnas, la primera con una imagen a la izquierda y la segunda en la derecha, con el titulo del evento en la parte superior, debajo de este el autor del evento, debajo de este el dia y la hora del evento y debajo de este e boton de &quot;Mas info&quot;. En la seccion final a la izquierda el texto de &quot;Mas Eventos &gt;&quot;</li>
+	<li>Seguido a este, una seccion con dos columnas, la primera conlumna: con un titulo de &quot;Tienes una clase o experiencia para compartir?&quot;, debajo de este un texto de &quot;Forma parte de nuestra comunidad R-ACAD.&quot; y debajo de este un boton que dice: &quot;Contactanos&quot;. En la segunda columna: El titulo de &quot;Suscr&iacute;bete para recibir Novedades y Promociones&quot; debajo de este: un campo para ingresar el nombre, un campo para ingresar el correo y un boton que dice: &quot;Enviar&quot;.</li>
+	<li>debajo de este la seccion del copyright, con untexto en la parte inferior izquierda que dice: &quot;Copyright &copy; 2021 | Rottweiler Academy&quot; seguido a este el parte derecha el logo de facebook instagram y youtuve.</li>
+</ul>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="8749" name="1202 Validar que se puede ingresar la pagina de inicio desde la pagina principal.">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[9]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el funcionamiento de la entrada a inicio desde la pagina principal.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el texto de inicio&nbsp; al lado derecho del logo de la pagina ubicado en la seccion superior izquierda de la pagina.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar:</p>
+
+<ul>
+	<li>El logo de la pagina en la parte superior izquierda junto a un menu horizontal de derecha a izquierda: inicio, cursos, eventos, carrito (el logo de un carrito), Iniciar sesion y registrarse.</li>
+	<li>Seguido de este una seccion de inicio con una imagen de portada de fondo con el boton de &quot;unirse&quot;</li>
+	<li>Seguido a este una seccion con cuatro columnas, cada uno con una imagen de fondo y los textos de: &quot;cursos online&quot;, &quot;Eventos y conferencias&quot;, &quot;Experiencias&quot; y &quot;Freelancers&quot;.</li>
+	<li>Seguido a este, una seccion cursos, Con un titulo de &quot;Descubre NUESTROS CURSOS M&Aacute;S POPULARES&quot; y debajo de este tres columnas cada una con: un texto con una imagen de fondo el texto dira si el curso esta por comenzar o si esta inscrito, debajo de esta la cantidad de lecciones, debajo de este el titulo del curso, debajo de este el profesor de curso.</li>
+	<li>Seguido a este, una seccion de eventos con una imagen de fondo, con un titulo de &quot;NUESTROS PR&Oacute;XIMOS EVENTOS&quot; y debajo de este: una imagen de fondo, con el titulo del evento, el dia y hora del evento, el autor.</li>
+	<li>Seguido a este, una seccion con dos columnas, la primera conlumna: cinco imagenes redondas de personas. En la segunda columna: El titulo de &quot;Instructores Profesionales&quot; debajo de este: 5 estrellas, debajo de este un texto: &quot;S&eacute; parte del equipo de los mejores profesionales en diferentes rubros a nivel Nacional e Internacional.&quot; y un boton que dice: &quot;Sube tus cursos&quot;.</li>
+	<li>Seguido a este una seccion que tiene de titulo &quot;Nuestras alianzas&quot;, debajo de este cuatro columnas con logos de intituciones cada columna.</li>
+	<li>debajo de este una seccion con una imagen de fondo y un&nbsp;titulo de: &quot;Suscr&iacute;bete&quot;, debajo de este el texto de: &quot;Ent&eacute;rate de las &uacute;ltimas novedades y consigue descuentos.&quot;.</li>
+	<li>debajo de este la seccion del copyright, con untexto en la parte inferior izquierda que dice: &quot;Copyright &copy; 2021 | Rottweiler Academy&quot; seguido a este el parte derecha el logo de facebook instagram y youtuve.</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="8752" name="1203 Validar que se puede ingresar la pagina de cursos desde la pagina principal.">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[10]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el funcionamiento de la entrada a cursos desde la pagina principal.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el texto de cursos al lado derecho del logo de la pagina y el texto de inicio&nbsp;ubicado en la seccion superior izquierda de la pagina.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar:</p>
+
+<ul>
+	<li>El logo de la pagina en la parte superior izquierda junto a un menu horizontal de derecha a izquierda: inicio, cursos, eventos, carrito (el logo de un carrito), Iniciar sesion y registrarse.</li>
+	<li>Debajo de esto; el titulo de: &quot;Cursos&quot;&nbsp;a la izquierda y a la derecha un campo para buscar cursos.</li>
+	<li>debajo de este un texto que dice &quot;Todos los cursos&quot;.</li>
+	<li>debajo de este 3&nbsp;cajas a la izquierda que dice: alfabetico, todas las categorias,&nbsp; todos los intrumentos.</li>
+	<li>debajo de este 3 filas con cuatro columnas cada columna con:&nbsp;un texto con una imagen de fondo el texto dira si el curso esta por comenzar o si esta inscrito, debajo de esta la cantidad de lecciones, debajo de este el titulo del curso, debajo de este el profesor de curso , debajo de este una peque&ntilde;a descripcion del curso y debajo de este a la izquierda el precio del curso.</li>
+	<li>debajo de este la seccion del copyright, con untexto en la parte inferior izquierda que dice: &quot;Copyright &copy; 2021 | Rottweiler Academy&quot; seguido a este el parte derecha el logo de facebook instagram y youtuve.</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="8755" name="1204 Validar que se puede ingresar la pagina de eventos desde la pagina principal.">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[11]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el funcionamiento de la entrada a eventos desde la pagina principal.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el texto de eventos al lado derecho del logo de la pagina, el texto de inicio y el texto de cursos ubicado en la seccion superior izquierda de la pagina.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Deberia poder visualizar:</p>
+
+<ul>
+	<li>El logo de la pagina en la parte superior izquierda junto a un menu horizontal de derecha a izquierda: inicio, cursos, eventos, carrito (el logo de un carrito), Iniciar sesion y registrarse.</li>
+	<li>Seguido a este el titulo de: &quot;Pr&oacute;ximos Eventos&quot;, debajo de esto, cuatro campos, el primero con la fecha de hoy, el segundo: un buscador de palabra clave, el tercero un boton para buscar evento, el cuarto el texto de lista.</li>
+	<li>debajo de esto una caja con un texto que dice: &quot;No se ha encontrado ningun resultado&quot;</li>
+	<li>debajo de este un texto que dice: &quot;&lt; Eventos anteriores.&quot;</li>
+	<li>debajo de este la seccion del copyright, con untexto en la parte inferior izquierda que dice: &quot;Copyright &copy; 2021 | Rottweiler Academy&quot; seguido a este el parte derecha el logo de facebook instagram y youtuve.</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="8758" name="1205 Validar que se puede entrar a la pagina de contactanos desde la pagina principal">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[12]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el&nbsp;funcionamiento&nbsp;del boton de contactanos de la pagina principal.<br />
+&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Deslizarse hasta la penultima seccion de la pagina principal.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se podra visualizar una seccion con dos columnas, la primera conlumna: con un titulo de &quot;Tienes una clase o experiencia para compartir?&quot;, debajo de este un texto de &quot;Forma parte de nuestra comunidad R-ACAD.&quot; y debajo de este un boton que dice: &quot;Contactanos&quot;. En la segunda columna: El titulo de &quot;Suscr&iacute;bete para recibir Novedades y Promociones&quot; debajo de este: un campo para ingresar el nombre, un campo para ingresar el correo y un boton que dice: &quot;Enviar&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Dar click en el boton &quot;Contactanos&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar la pagina de &quot;Contactanos&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="8763" name="1206 Validar que se puede entrar al detalle de un curso desde la pagina principal">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[13]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el funcionamiento de la entrada al detalle del curso desde la pagina principal.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Deslizar la pagina de arriba hacia abajo hasta la seccion de cursos.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debe visualizar una seccion de cursos, Con un titulo de &quot;Cursos por comenzar&quot; y debajo de este cuatro columnas cada una con: un texto con una imagen de fondo, debajo de este el titulo del curso, debajo de este el profesor de curso, debajo de este el dia y empiezo del curso, debajo de este el costo del curso.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Dar click en el texto del titulo del curso.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el apartado y pagina principal de cursos.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="8767" name="1207 Validar que se puede entrar al detalle de un evento desde la pagina principal">
+	<node_order><![CDATA[1006]]></node_order>
+	<externalid><![CDATA[14]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el funcionamiento de la entrada al detalle del evento desde la pagina principal.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Deslizar la pagina de arriba hacia abajo hasta la seccion de eventos.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debe visualizar una seccion de eventos, con un titulo de &quot;EVENTOS ONLINE&quot; y debajo de este tres filas que contienen cada una: dos columnas, la primera con una imagen a la izquierda y la segunda en la derecha, con el titulo del evento en la parte superior, debajo de este el autor del evento, debajo de este el dia y la hora del evento y debajo de este e boton de &quot;Mas info&quot;. En la seccion final a la izquierda el texto de &quot;Mas Eventos &gt;&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Dar click en el texto de: &quot;Mas Info&quot;&nbsp;de un evento.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar el detalle del evento selecionado.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="8771" name="1208 Validar que se puede entrar &quot;Mas experiencias&quot; desde la pagina principal">
+	<node_order><![CDATA[1007]]></node_order>
+	<externalid><![CDATA[20]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Esta prueba debe validar el funcionamiento de la entrada a mas experiencias&nbsp;desde la pagina principal.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. El usuario debe estar conectado a internet</p>
+
+<p>2. El usuario debe entrar al siguiente link desde su navegador favorito:&nbsp;https://www.r-acad.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Deslizar la pagina de arriba hacia abajo hasta la seccion de experiencias.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se debe visualizar una seccion de experiencias&nbsp;, con un titulo de &quot;Nuevas Experiencias Online&quot; y debajo de este don filas con tres columnas cada una, con el titulo de la experiencia y un boton que dice: &quot;unete&quot;&nbsp;y todo junto con una imagen de fondo. Luego de las columnas a la izquierda hay un texto que dice &quot;Mas Experiencias.&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Dar Click en &quot;Mas experiencias &gt;&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se deberia mostrar la pagina de &quot;Experiencias&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite>

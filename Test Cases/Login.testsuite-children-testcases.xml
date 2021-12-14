@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase internalid="890" name="501- verificar que al hacer click en iniciar sesión, la pagina cambia.">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[75]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que si el usuario ingresa un nombre de usuario y contrase&ntilde;a v&aacute;lidos, accede al sistema y se despliega la ventana principal de la p&aacute;gina con el usuario logueado.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li><strong>&nbsp;Conexi&oacute;n a internet</strong></li>
+	<li><strong>Navegador Chrome.</strong></li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a<a href="https://www.r-acad.com/"> https://www.r-acad.com/</a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la p&aacute;gina principal en la esquina superior derecha hacer click en &quot;Iniciar sesi&oacute;n&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se muestra un titulo de Iniciar Sesi&oacute;n. 2 campos de texto, el superior para correo electronico y el inferior para contrase&ntilde;a. tambien cuenta con un boton de &quot;acceder&quot;. En la parte inferior estan enlaces a &quot;terminos y condiciones&quot; y &quot;pol&iacute;ticas de privacidad.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="894" name="502 -verificar que al introducir las credenciales correctas se accede al sistema.">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[76]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que al introducir las credenciales validas se accede al sistema y nos muestra la p&aacute;gina principal con el usurio logueado.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>&nbsp;Conexi&oacute;n a internet</li>
+	<li>&nbsp;Navegador Chrome.</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a<a href="https://www.r-acad.com/"> https://www.r-acad.com/</a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la p&aacute;gina principal en la esquina superior derecha hacer click en &quot;Iniciar sesi&oacute;n&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se muestra un titulo de Iniciar Sesi&oacute;n. 2 campos de texto, el superior para correo electronico y el inferior para contrase&ntilde;a. tambien cuenta con un boton de &quot;acceder&quot;. En la parte inferior estan enlaces a &quot;terminos y condiciones&quot; y &quot;pol&iacute;ticas de privacidad.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>En el campo de Correo Electr&oacute;nico colocar:&nbsp;<a href="mailto:lacato.test.2021@gmail.com">lacato.test.2021@gmail.com</a>&nbsp;y en la contrase&ntilde;a:&nbsp;test_2021 y darle al bot&oacute;n acceder.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="899" name="503- verificar que al introducir credenciales incorrectas no se puede acceder al sistema.">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[77]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verificar que al introducir credenciales incorrectas no se puede acceder al sistema, solo se mantiene en la p&aacute;gina de inicio de sesi&oacute;n.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>&nbsp;Navegador Chrome.</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la p&aacute;gina principal en la esquina superior derecha hacer click en &quot;Iniciar sesi&oacute;n&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se muestra un titulo de Iniciar Sesi&oacute;n. 2 campos de texto, el superior para correo electronico y el inferior para contrase&ntilde;a. tambien cuenta con un boton de &quot;acceder&quot;. En la parte inferior estan enlaces a &quot;terminos y condiciones&quot; y &quot;pol&iacute;ticas de privacidad.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>En el campo de Correo Electr&oacute;nico colocar: soyuntest.0123@gmail.com y en la contrase&ntilde;a: soyuntest.0123 y darle al bot&oacute;n acceder.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina de iniciar sesi&oacute;n ahora muestra un mensaje en rojo &quot;Direcci&oacute;n de correo electr&oacute;nico desconocida. Compru&eacute;bala de nuevo o int&eacute;ntalo con tu nombre de usuario.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>En el campo de Correo Electr&oacute;nico colocar: lacato.test.2021@gmail.com y en la contrase&ntilde;a: test_2020&nbsp;y darle al bot&oacute;n acceder.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[<p>Ahora la p&aacute;gina reemplaza el anterior mensaje por &quot;<strong>Error</strong>: la contrase&ntilde;a que has introducido para la direcci&oacute;n de correo electr&oacute;nico&nbsp;<strong>lacato.test.2021@gmail.com</strong>&nbsp;no es correcta.&nbsp;<a href="https://www.r-acad.com/wp-login.php?action=lostpassword">&iquest;Has olvidado tu contrase&ntilde;a?</a>&quot; y no se puede acceder al sistema</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="905" name="504 verificar que se puede ver las políticas de privacidad">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[78]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verificar que se puede ver las pol&iacute;ticas de privacidad desde la p&aacute;gina de iniciar sesi&oacute;n.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>&nbsp;Navegador Chrome.</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la p&aacute;gina principal en la esquina superior derecha hacer click en &quot;Iniciar sesi&oacute;n&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se muestra un titulo de Iniciar Sesi&oacute;n. 2 campos de texto, el superior para correo electronico y el inferior para contrase&ntilde;a. tambien cuenta con un boton de &quot;acceder&quot;. En la parte inferior estan enlaces a &quot;terminos y condiciones&quot; y &quot;pol&iacute;ticas de privacidad.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>En la parte inferior hacer click en el texto &quot;Pol&iacute;ticas de privacidad&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Muestra un texto con toda la informaci&oacute;n referente a las p&oacute;liticas de privacidad y en la parte superior derecha una equis para cerrar.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="910" name="505 Validar que se puede ver los Términos de uso.">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[79]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que se puede ver los terminos de usos desde la p&aacute;gina de Iniciar sesi&oacute;n.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>&nbsp;Navegador Chrome.</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la p&aacute;gina principal en la esquina superior derecha hacer click en &quot;Iniciar sesi&oacute;n&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se muestra un titulo de Iniciar Sesi&oacute;n. 2 campos de texto, el superior para correo electronico y el inferior para contrase&ntilde;a. tambien cuenta con un boton de &quot;acceder&quot;. En la parte inferior estan enlaces a &quot;terminos y condiciones&quot; y &quot;pol&iacute;ticas de privacidad.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>En la parte inferior hacer click en el texto &quot;Terminos de uso.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Muestra un texto con toda la informaci&oacute;n referente a los terminos de uso y en la parte superior derecha una equis para cerrar.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="915" name="506 validar que se puede ir a la pagina de crear una cuenta.">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[80]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que se puede ver la p&aacute;gina de crear cuenta al hacer click en el bot&oacute;n &quot;crear una cuenta&quot; desde la p&aacute;gina de Iniciar sesion.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>&nbsp;Navegador Chrome.</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la p&aacute;gina principal en la esquina superior derecha hacer click en &quot;Iniciar sesi&oacute;n&quot;<br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p><br />
+La p&aacute;gina cambia, ahora se muestra un titulo de Iniciar Sesi&oacute;n alado de este el texto de &quot;crear una cuenta&quot;. 2 campos de texto, el superior para correo electronico y el inferior para contrase&ntilde;a. tambien cuenta con un boton de &quot;acceder&quot;. En la parte inferior estan enlaces a &quot;terminos y condiciones&quot; y &quot;pol&iacute;ticas de privacidad.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el texto &quot;crear una cuenta&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>se muestra una p&aacute;gina diferente, con titulo&nbsp;crear una cuenta, que tiene campos de texto de correro electr&oacute;nico, contrase&ntilde;a, confirmar contrase&ntilde;a, nombre, apellido, nombre de usuario y al final un bot&oacute;n de crear una cuenta.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

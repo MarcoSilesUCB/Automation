@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase internalid="779" name="1501 validar que no se pueda inscribir a un curso sin iniciar sesión.">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[61]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que al ingresar al querer inscribirse a un curso sin iniciar sesi&oacute;n, nos obligue a iniciar sesi&oacute;n para hacerlo, mostrando la vista de inicio de sesi&oacute;n</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>Navegador Chrome instalado<br />
+	&nbsp;</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/<br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra a la p&aacute;gina principal en la cual se observa el logo de ROTTWEILER academy en la parte superior izquierda, junto a ellas 3 botones.<br />
+&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la parte superior izquierda, hacer click en el texto de &quot;Cursos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia y ahora muestra la p&aacute;gina de cursos, que tiene el t&iacute;tulo de cursos debajo del logo de ROTTWEILER Academy. Abajo del t&iacute;tulo muestra el texto &ldquo; todos los cursos&rdquo; y la cantidad de cursos. En la misma altura del t&iacute;tulo &nbsp;en la parte derecha muestra un buscador de cursos, Debajo del buscador hay una secci&oacute;n de filtros.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Hacer click en la tarjeta del curso &quot;Como hacer milkshake&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina se actualiza ahora muestra en la p&aacute;gina el titulo &quot;como hacer milkshakes&quot;, bajo el t&iacute;tulo se puede dar click en el texto &quot;ver detalles del curso&quot; y bajo esto tenemos el instructor que da el curso. A la derecha se puedes apuntarte al curso</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En la parte derecha dar click&nbsp;en apuntarme.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina se ctualiza y ahora muestra otra&nbsp;p&aacute;gina con un titulo&nbsp;de &quot;Iniciar Sesi&oacute;n&quot;&nbsp;y no se a&ntilde;ade ni se apunta a ningun curso.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="785" name="1502 validar que se puede añadir un curso al carrito.">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[62]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que al iniciar sesi&oacute;n nos permite a&ntilde;adir un curso al carrito.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>Navegador Chrome instalado<br />
+	&nbsp;</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la p&aacute;gina principal en la esquina superior derecha hacer click en &quot;Iniciar sesi&oacute;n&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se muestra un titulo de Iniciar Sesi&oacute;n. 2 campos de texto, el superior para correo electronico y el inferior para contrase&ntilde;a. tambien cuenta con un boton de &quot;acceder&quot;. En la parte inferior estan enlaces a &quot;terminos y condiciones&quot; y &quot;pol&iacute;ticas de privacidad.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>En el campo de Correo Electr&oacute;nico colocar: soyuntest.0123@gmail.com y en la contrase&ntilde;a: soyuntest.0123 y darle al bot&oacute;n acceder.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En la parte superior izquierda, hacer click en el texto de &quot;Cursos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia y ahora muestra la p&aacute;gina de cursos, que tiene el t&iacute;tulo de cursos debajo del logo de ROTTWEILER Academy. Abajo del t&iacute;tulo muestra el texto &ldquo; todos los cursos&rdquo; y la cantidad de cursos. En la misma altura del t&iacute;tulo &nbsp;en la parte derecha muestra un buscador de cursos, Debajo del buscador hay una secci&oacute;n de filtros.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Hacer click en la tarjeta del curso &quot;Como hacer milkshake&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina se actualiza ahora muestra en la p&aacute;gina el titulo &quot;como hacer milkshakes&quot;, bajo el t&iacute;tulo se puede dar click en el texto &quot;ver detalles del curso&quot; y bajo esto tenemos el instructor que da el curso. A la derecha se puedes apuntarte al curso</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>En la parte derecha dar click en apuntarme.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora muestra una foto del curso &nbsp;al lado izquierdo de la foto esta el nombre del curso, debajo el precio y debajo de este un bot&oacute;n de &quot;a&ntilde;adir al carrito.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el bot&oacute;n &quot;a&ntilde;adir al carrito&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>la p&aacute;gina se actualiza ahora en la parte superior derecha el carrito tiene ahora un circulo rojo con el n&uacute;mero de elementos en el carrito.</p>
+
+<p>Encima de la foto ahora hay un mensaje &quot;&ldquo;Como hacer milkshakes&rdquo; se ha a&ntilde;adido a tu carrito.&quot; con un bot&oacute;n de &quot;ver carrito&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="794" name="1503 Validar que al ingresar un cupón erróneo sale un mensaje de error.">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[63]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que al ingresar un cup&oacute;n err&oacute;neo en el carrito cuando se tiene un elemento sale un mensaje de error.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>Navegador Chrome instalado</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+
+<p><br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la p&aacute;gina principal en la esquina superior derecha hacer click en &quot;Iniciar sesi&oacute;n&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se muestra un titulo de Iniciar Sesi&oacute;n. 2 campos de texto, el superior para correo electronico y el inferior para contrase&ntilde;a. tambien cuenta con un boton de &quot;acceder&quot;. En la parte inferior estan enlaces a &quot;terminos y condiciones&quot; y &quot;pol&iacute;ticas de privacidad.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>En el campo de Correo Electr&oacute;nico colocar: soyuntest.0123@gmail.com y en la contrase&ntilde;a: soyuntest.0123 y darle al bot&oacute;n acceder.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p><br />
+La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En la parte superior izquierda, hacer click en el texto de &quot;Cursos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia y ahora muestra la p&aacute;gina de cursos, que tiene el t&iacute;tulo de cursos debajo del logo de ROTTWEILER Academy. Abajo del t&iacute;tulo muestra el texto &ldquo; todos los cursos&rdquo; y la cantidad de cursos. En la misma altura del t&iacute;tulo &nbsp;en la parte derecha muestra un buscador de cursos, Debajo del buscador hay una secci&oacute;n de filtros.<br />
+&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Hacer click en la tarjeta del curso &quot;Como hacer milkshake&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina se actualiza ahora muestra en la p&aacute;gina el titulo &quot;como hacer milkshakes&quot;, bajo el t&iacute;tulo se puede dar click en el texto &quot;ver detalles del curso&quot; y bajo esto tenemos el instructor que da el curso. A la derecha se puedes apuntarte al curso</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>En la parte derecha dar click en apuntarme.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora muestra una foto del curso &nbsp;al lado izquierdo de la foto esta el nombre del curso, debajo el precio y debajo de este un bot&oacute;n de &quot;a&ntilde;adir al carrito.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el bot&oacute;n &quot;a&ntilde;adir al carrito&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>la p&aacute;gina se actualiza ahora en la parte superior derecha el carrito tiene ahora un circulo rojo con el n&uacute;mero de elementos en el carrito.</p>
+
+<p>Encima de la foto ahora hay un mensaje &quot;&ldquo;Como hacer milkshakes&rdquo; se ha a&ntilde;adido a tu carrito.&quot; con un bot&oacute;n de &quot;ver carrito&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el icono de carrito</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>se despliega una peque&ntilde;a ventana debajo del carrito en la que se encuentra una lista de productos, el precio unitario y un texto de subtotal al final, el parte inferior izquierda de esta ventana hay 2 botones &quot;ver carrito&quot; y &quot;finalizar compra&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el bot&oacute;n &quot;ver carrito&quot; de la ventana desplegada bajo el icono de carrito.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora muestra un texto de titulo &quot;carrito&quot;, debajo hay una tabla que contiene en la parte superior, el producto, el precio, la cantidad y el subtotal.</p>
+
+<p>En la parte del medio de la tabla hay un campo de texto donde se pueden a&ntilde;adir c&oacute;digos de cupon, al lado un bot&oacute;n de &quot;aplicar cup&oacute;n&quot;</p>
+
+<p>En la parte inferior derecha de la tabla tenemos el subtotal, el total y un bot&oacute;n &quot;finalizar compra.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>En la parte del medio de la tabla colocar en la secci&oacute;n de codigo del cup&oacute;n : 1111 y darle click en &quot;aplicar cup&oacute;n&quot;</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>L&aacute; p&aacute;gina muestra un mensaje en rojo &quot;&iexcl;El cup&oacute;n &laquo;1111&raquo; no existe!&quot; sobre la tabla de productos. y no se aplica ningun tipo de descuento al precio subtotal ni al total.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="806" name="1504 validar que se puede eliminar un elemento del carrito.">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[64]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que al estar en la p&aacute;gina de carrito y haber iniciado sesion se puede eliminar un elemento del carrito .</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>Navegador Chrome instalado</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la p&aacute;gina principal en la esquina superior derecha hacer click en &quot;Iniciar sesi&oacute;n&quot;</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se muestra un titulo de Iniciar Sesi&oacute;n. 2 campos de texto, el superior para correo electronico y el inferior para contrase&ntilde;a. tambien cuenta con un boton de &quot;acceder&quot;. En la parte inferior estan enlaces a &quot;terminos y condiciones&quot; y &quot;pol&iacute;ticas de privacidad.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>En el campo de Correo Electr&oacute;nico colocar: soyuntest.0123@gmail.com y en la contrase&ntilde;a: soyuntest.0123 y darle al bot&oacute;n acceder.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En la parte superior izquierda, hacer click en el texto de &quot;Cursos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia y ahora muestra la p&aacute;gina de cursos, que tiene el t&iacute;tulo de cursos debajo del logo de ROTTWEILER Academy. Abajo del t&iacute;tulo muestra el texto &ldquo; todos los cursos&rdquo; y la cantidad de cursos. En la misma altura del t&iacute;tulo &nbsp;en la parte derecha muestra un buscador de cursos, Debajo del buscador hay una secci&oacute;n de filtros.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Hacer click en la tarjeta del curso &quot;Como hacer milkshake&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina se actualiza ahora muestra en la p&aacute;gina el titulo &quot;como hacer milkshakes&quot;, bajo el t&iacute;tulo se puede dar click en el texto &quot;ver detalles del curso&quot; y bajo esto tenemos el instructor que da el curso. A la derecha se puedes apuntarte al curso.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>En la parte derecha dar click en apuntarme.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora muestra una foto del curso&nbsp;&nbsp;al lado izquierdo de la foto esta el nombre del curso, debajo el precio y debajo de este un bot&oacute;n de &quot;a&ntilde;adir al carrito.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el bot&oacute;n &quot;a&ntilde;adir al carrito&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>la p&aacute;gina se actualiza ahora en la parte superior derecha el carrito tiene ahora un circulo rojo con el n&uacute;mero de elementos en el carrito.</p>
+
+<p>Encima de la foto ahora hay un mensaje &quot;&ldquo;Como hacer milkshakes&rdquo; se ha a&ntilde;adido a tu carrito.&quot; con un bot&oacute;n de &quot;ver carrito&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el icono de carrito</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>se despliega una peque&ntilde;a ventana debajo del carrito en la que se encuentra una lista de productos, el precio unitario y un texto de subtotal al final, el parte inferior izquierda de esta ventana hay 2 botones &quot;ver carrito&quot; y &quot;finalizar compra&quot;<br />
+&nbsp;&nbsp; &nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el bot&oacute;n &quot;ver carrito&quot; de la ventana desplegada bajo el icono de carrito.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora muestra un texto de titulo &quot;carrito&quot;, debajo hay una tabla que contiene en la parte superior, el producto, el precio, la cantidad y el subtotal.</p>
+
+<p>En la parte del medio de la tabla hay un campo de texto donde se pueden a&ntilde;adir c&oacute;digos de cupon, al lado un bot&oacute;n de &quot;aplicar cup&oacute;n&quot;</p>
+
+<p>En la parte inferior derecha de la tabla tenemos el subtotal, el total y un bot&oacute;n &quot;finalizar compra.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>En la parte superior de la tabla al lado izquierdo de la imagen del curso, hacer click en la &quot; x &quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>vuelve a la vista del carrito, ahora ya no esta el producto y el carrito se encuentra vacio.</p>
+
+<p>en la parte superior de la tabla permite deshacer el producto eliminado y en la parte inferior de la tabla hay un bot&oacute;n para volver a la tienda.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="818" name="1505 validar que se puede Deshacer un elemento eliminado del carrito">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[65]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que justamente despues de eliminar un producto del carrito se puede hacer click en &quot;deshacer&quot; y este se restaura.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>Navegador Chrome instalado</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la p&aacute;gina principal en la esquina superior derecha hacer click en &quot;Iniciar sesi&oacute;n&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se muestra un titulo de Iniciar Sesi&oacute;n. 2 campos de texto, el superior para correo electronico y el inferior para contrase&ntilde;a. tambien cuenta con un boton de &quot;acceder&quot;. En la parte inferior estan enlaces&nbsp;&nbsp;a &quot;terminos y condiciones&quot; y &quot;pol&iacute;ticas de privacidad.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>En el campo de Correo Electr&oacute;nico colocar: soyuntest.0123@gmail.com y en la contrase&ntilde;a: soyuntest.0123 y darle al bot&oacute;n acceder.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En la parte superior izquierda, hacer click en el texto de &quot;Cursos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia y ahora muestra la p&aacute;gina de cursos, que tiene el t&iacute;tulo de cursos debajo del logo de ROTTWEILER Academy. Abajo del t&iacute;tulo muestra el texto &ldquo; todos los cursos&rdquo; y la cantidad de cursos. En la misma altura del t&iacute;tulo &nbsp;en la parte derecha muestra un buscador de cursos, Debajo del buscador hay una secci&oacute;n de filtros.<br />
+&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Hacer click en la tarjeta del curso &quot;Como hacer milkshake&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina se actualiza ahora muestra en la p&aacute;gina el titulo &quot;como hacer milkshakes&quot;, bajo el t&iacute;tulo se puede dar click en el texto &quot;ver detalles del curso&quot; y bajo esto tenemos el instructor que da el curso. A la derecha puedes apuntarte al curso.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>En la parte derecha dar click en apuntarme.</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora muestra una foto del curso&nbsp;&nbsp;al lado izquierdo de la foto esta el nombre del curso, debajo el precio y debajo de este un bot&oacute;n de &quot;a&ntilde;adir al carrito.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el bot&oacute;n &quot;a&ntilde;adir al carrito&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>la p&aacute;gina se actualiza ahora en la parte superior derecha el carrito tiene ahora un circulo rojo con el n&uacute;mero de elementos en el carrito.</p>
+
+<p>Encima de la foto ahora hay un mensaje &quot;&ldquo;Como hacer milkshakes&rdquo; se ha a&ntilde;adido a tu carrito.&quot; con un bot&oacute;n de &quot;ver carrito&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el icono de carrito</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>se despliega una peque&ntilde;a ventana debajo del carrito en la que se encuentra una lista de productos, el precio unitario y un texto de subtotal al final, el parte inferior izquierda de esta ventana hay 2 botones &quot;ver carrito&quot; y &quot;finalizar compra</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el bot&oacute;n &quot;ver carrito&quot; de la ventana desplegada bajo el icono de carrito.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora muestra un texto de titulo &quot;carrito&quot;, debajo hay una tabla que contiene en la parte superior, el producto, el precio, la cantidad y el subtotal.</p>
+
+<p>En la parte del medio de la tabla hay un campo de texto donde se pueden a&ntilde;adir c&oacute;digos de cupon, al lado un bot&oacute;n de &quot;aplicar cup&oacute;n&quot;</p>
+
+<p>En la parte inferior derecha de la tabla tenemos el subtotal, el total y un bot&oacute;n &quot;finalizar compra.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>En la parte superior de la tabla al lado izquierdo de la imagen del curso, hacer click en la &quot; x &quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>vuelve a la vista del carrito, ahora ya no esta el producto y el carrito se encuentra vacio.</p>
+
+<p>En la parte superior de la tabla permite deshacer el producto eliminado y en la parte inferior de la tabla hay un bot&oacute;n para volver a la tienda.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>En la parte superior de la tabla hacer click en&quot;deshacer&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El carrito vuelve a su estado anterior, volviendo a aparecer el curso &quot;como hacer milkshakes&quot; junto al subtotoal y al total.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="831" name="1506 validar que no se puede añadir 2 cursos iguales al carrito.">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[66]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que no se puede a&ntilde;adir 2 cursos,uno tras de otro,&nbsp;iguales al carrito.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>Navegador Chrome instalado</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Navegar a https://www.r-acad.com/</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la p&aacute;gina principal en la esquina superior derecha hacer click en &quot;Iniciar sesi&oacute;n&quot;</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se muestra un titulo de Iniciar Sesi&oacute;n. 2 campos de texto, el superior para correo electronico y el inferior para contrase&ntilde;a. tambien cuenta con un boton de &quot;acceder&quot;. En la parte inferior estan enlaces a &quot;terminos y condiciones&quot; y &quot;pol&iacute;ticas de privacidad.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>En el campo de Correo Electr&oacute;nico colocar: soyuntest.0123@gmail.com y en la contrase&ntilde;a: soyuntest.0123 y darle al bot&oacute;n acceder.</p>
+
+<p><br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>&nbsp;&nbsp; &nbsp;<br />
+En la parte superior izquierda, hacer click en el texto de &quot;Cursos&quot;</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia y ahora muestra la p&aacute;gina de cursos, que tiene el t&iacute;tulo de cursos debajo del logo de ROTTWEILER Academy. Abajo del t&iacute;tulo muestra el texto &ldquo; todos los cursos&rdquo; y la cantidad de cursos. En la misma altura del t&iacute;tulo &nbsp;en la parte derecha muestra un buscador de cursos, Debajo del buscador hay una secci&oacute;n de filtros.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Hacer click en la tarjeta del curso &quot;Como hacer milkshake&quot;</p>
+
+<p><br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina se actualiza ahora muestra en la p&aacute;gina el titulo &quot;como hacer milkshakes&quot;, bajo el t&iacute;tulo se puede dar click en el texto &quot;ver detalles del curso&quot; y bajo esto tenemos el instructor que da el curso. A la derecha puedes apuntarte al curso.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>En la parte derecha dar click en apuntarme.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora muestra una foto del curso &nbsp;al lado izquierdo de la foto esta el nombre del curso, debajo el precio y debajo de este un bot&oacute;n de &quot;a&ntilde;adir al carrito.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el bot&oacute;n &quot;a&ntilde;adir al carrito&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>la p&aacute;gina se actualiza ahora en la parte superior derecha el carrito tiene ahora un circulo rojo con el n&uacute;mero de elementos en el carrito.</p>
+
+<p>Encima de la foto ahora hay un mensaje &quot;&ldquo;Como hacer milkshakes&rdquo; se ha a&ntilde;adido a tu carrito.&quot; con un bot&oacute;n de &quot;ver carrito&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Intentar volver a hacer click en el bot&oacute;n &quot;a&ntilde;adir al carrito&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>L&aacute; p&aacute;gina se mantiene igual, ya que el bot&oacute;n de &quot;a&ntilde;adir al carrito&quot; esta desactivado.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="841" name="1507 validar que para los detalles de facturación no se pueda colocar 1 solo carácter en cada campo">
+	<node_order><![CDATA[6]]></node_order>
+	<externalid><![CDATA[67]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que para los detalles de facturaci&oacute;n no se pueda colocar 1 solo car&aacute;cter especial(+*^;) en cada campo de texto obligatorio, como nombre, apellido, direcci&oacute;n y ciudad.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>&nbsp;Navegador Chrome.</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la p&aacute;gina principal en la esquina superior derecha hacer click en &quot;Iniciar sesi&oacute;n&quot;</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se muestra un titulo de Iniciar Sesi&oacute;n. 2 campos de texto, el superior para correo electronico y el inferior para contrase&ntilde;a. tambien cuenta con un boton de &quot;acceder&quot;. En la parte inferior estan enlaces a &quot;terminos y condiciones&quot; y &quot;pol&iacute;ticas de privacidad.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>En el campo de Correo Electr&oacute;nico colocar: soyuntest.0123@gmail.com y en la contrase&ntilde;a: soyuntest.0123 y darle al bot&oacute;n acceder.</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En la parte superior izquierda, hacer click en el texto de &quot;Cursos&quot;</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia y ahora muestra la p&aacute;gina de cursos, que tiene el t&iacute;tulo de cursos debajo del logo de ROTTWEILER Academy. Abajo del t&iacute;tulo muestra el texto &ldquo; todos los cursos&rdquo; y la cantidad de cursos. En la misma altura del t&iacute;tulo &nbsp;en la parte derecha muestra un buscador de cursos, Debajo del buscador hay una secci&oacute;n de filtros.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Hacer click en la tarjeta del curso &quot;Como hacer milkshake&quot;</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina se actualiza ahora muestra en la p&aacute;gina el titulo &quot;como hacer milkshakes&quot;, bajo el t&iacute;tulo se puede dar click en el texto &quot;ver detalles del curso&quot; y bajo esto tenemos el instructor que da el curso. A la derecha se puedes apuntarte al curso</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>En la parte derecha dar click en apuntarme.<br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora muestra una foto del curso &nbsp;al lado izquierdo de la foto esta el nombre del curso, debajo el precio y debajo de este un bot&oacute;n de &quot;a&ntilde;adir al carrito.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el bot&oacute;n &quot;a&ntilde;adir al carrito&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>la p&aacute;gina se actualiza ahora en la parte superior derecha el carrito tiene ahora un circulo rojo con el n&uacute;mero de elementos en el carrito.</p>
+
+<p>Encima de la foto ahora hay un mensaje &quot;&ldquo;Como hacer milkshakes&rdquo; se ha a&ntilde;adido a tu carrito.&quot; con un bot&oacute;n de &quot;ver carrito&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el icono de carrito</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>se despliega una peque&ntilde;a ventana debajo del carrito en la que se encuentra una lista de productos, el precio unitario y un texto de subtotal al final, el parte inferior izquierda de esta ventana hay 2 botones &quot;ver carrito&quot; y &quot;finalizar compra</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el bot&oacute;n &quot;ver carrito&quot; de la ventana desplegada bajo el icono de carrito.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora muestra un texto de titulo &quot;carrito&quot;, debajo hay una tabla que contiene en la parte superior, el producto, el precio, la cantidad y el subtotal.</p>
+
+<p>En la parte del medio de la tabla hay un campo de texto donde se pueden a&ntilde;adir c&oacute;digos de cupon, al lado un bot&oacute;n de &quot;aplicar cup&oacute;n&quot;</p>
+
+<p>En la parte inferior derecha de la tabla tenemos el subtotal, el total y un bot&oacute;n &quot;finalizar compra.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>En la parte inferior derecha en la tabla, hacer click en el boton &quot;finalizar compra&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina se actualiza ahora miuestra una p&aacute;gina con el t&iacute;tulo Finalizar Compra debajo de esta tenemos opciones para iniciar sesi&oacute;n o a&ntilde;adir c&oacute;digos de descuentos, debo tenemos los detalles de facturaci&oacute;n. y a la derecha tenemos el sector de Su pedido que cuenta con las opciones para el pago del curso.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>En los detalles de facturaci&oacute;n colocar</p>
+
+<ul>
+	<li>Nombre: *&nbsp;</li>
+	<li>Apellido: *</li>
+	<li>Regi&oacute;n: Bolivia</li>
+	<li>Direccion de la calle: *</li>
+	<li>Localidad:&nbsp;+</li>
+	<li>Provincia: santa cruz</li>
+	<li>Telefono: 0</li>
+	<li>correo: correo@gmail.com</li>
+</ul>
+
+<p>luego marcar la casilla en &quot;He le&iacute;do y estoy de acuerdo con los&nbsp;<a href="https://www.r-acad.com/politica-de-privacidad/" target="_blank">t&eacute;rminos y condiciones</a>&nbsp;de la web&nbsp;*&quot; y darle en&nbsp; Realizar pedido.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>L&aacute; p&aacute;gina muestra un mensaje de error en rojo arriba de los detalles de facturaci&oacute;n se&ntilde;alando que no esta permitido colocar en los campos obligatorios 1 solo caracter y en todos los demas datos a excepcion de direccion no se pueden colocar caracteres especiales.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="1055" name="1508 validar los campos de entrada de detalles de facturación">
+	<node_order><![CDATA[1007]]></node_order>
+	<externalid><![CDATA[21]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que al colocar los valores minimos y valores en el limite de cada campo de texto la p&aacute;gina muestra mensajes de error o confirmacion</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>&nbsp;Navegador Chrome.</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy<br />
+&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la p&aacute;gina principal en la esquina superior derecha hacer click en &quot;Iniciar sesi&oacute;n&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se muestra un titulo de Iniciar Sesi&oacute;n. 2 campos de texto, el superior para correo electronico y el inferior para contrase&ntilde;a. tambien cuenta con un boton de &quot;acceder&quot;. En la parte inferior estan enlaces a &quot;terminos y condiciones&quot; y &quot;pol&iacute;ticas de privacidad.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>En el campo de Correo Electr&oacute;nico colocar: soyuntest.0123@gmail.com y en la contrase&ntilde;a: soyuntest.0123 y darle al bot&oacute;n acceder</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora se ve la p&aacute;gina principal pero en la esquina superior derecha esta el nombre del perfil, la foto y un carrito de compras</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En la parte superior izquierda, hacer click en el texto de &quot;Cursos&quot;<br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia y ahora muestra la p&aacute;gina de cursos, que tiene el t&iacute;tulo de cursos debajo del logo de ROTTWEILER Academy. Abajo del t&iacute;tulo muestra el texto &ldquo; todos los cursos&rdquo; y la cantidad de cursos. En la misma altura del t&iacute;tulo &nbsp;en la parte derecha muestra un buscador de cursos, Debajo del buscador hay una secci&oacute;n de filtros.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Hacer click en la tarjeta del curso &quot;Como hacer milkshake&quot;<br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina se actualiza ahora muestra en la p&aacute;gina el titulo &quot;como hacer milkshakes&quot;, bajo el t&iacute;tulo se puede dar click en el texto &quot;ver detalles del curso&quot; y bajo esto tenemos el instructor que da el curso. A la derecha se puedes apuntarte al curso</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>En la parte derecha dar click en apuntarme.<br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p><br />
+La p&aacute;gina cambia, ahora muestra una foto del curso &nbsp;al lado izquierdo de la foto esta el nombre del curso, debajo el precio y debajo de este un bot&oacute;n de &quot;a&ntilde;adir al carrito.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el bot&oacute;n &quot;a&ntilde;adir al carrito&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>la p&aacute;gina se actualiza ahora en la parte superior derecha el carrito tiene ahora un circulo rojo con el n&uacute;mero de elementos en el carrito.</p>
+
+<p>Encima de la foto ahora hay un mensaje &quot;&ldquo;Como hacer milkshakes&rdquo; se ha a&ntilde;adido a tu carrito.&quot; con un bot&oacute;n de &quot;ver carrito&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el icono de carrito</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>se despliega una peque&ntilde;a ventana debajo del carrito en la que se encuentra una lista de productos, el precio unitario y un texto de subtotal al final, el parte inferior izquierda de esta ventana hay 2 botones &quot;ver carrito&quot; y &quot;finalizar compra</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el bot&oacute;n &quot;ver carrito&quot; de la ventana desplegada bajo el icono de carrito.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia, ahora muestra un texto de titulo &quot;carrito&quot;, debajo hay una tabla que contiene en la parte superior, el producto, el precio, la cantidad y el subtotal.</p>
+
+<p>En la parte del medio de la tabla hay un campo de texto donde se pueden a&ntilde;adir c&oacute;digos de cupon, al lado un bot&oacute;n de &quot;aplicar cup&oacute;n&quot;</p>
+
+<p>En la parte inferior derecha de la tabla tenemos el subtotal, el total y un bot&oacute;n &quot;finalizar compra.&quot;<br />
+&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>En la parte inferior derecha en la tabla, hacer click en el boton &quot;finalizar compra&quot;</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina se actualiza ahora miuestra una p&aacute;gina con el t&iacute;tulo Finalizar Compra debajo de esta tenemos opciones para iniciar sesi&oacute;n o a&ntilde;adir c&oacute;digos de descuentos, debo tenemos los detalles de facturaci&oacute;n. y a la derecha tenemos el sector de Su pedido que cuenta con las opciones para el pago del curso.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>En los detalles de facturaci&oacute;n colocar</p>
+
+<p>Nombre: *a<br />
+Apellido: *b<br />
+Regi&oacute;n: Bolivia<br />
+Direccion de la calle: *c<br />
+Localidad: +e<br />
+Provincia: santa cruz<br />
+Telefono: -1<br />
+correo: correo@gmail.com<br />
+luego marcar la casilla en &quot;He le&iacute;do y estoy de acuerdo con los t&eacute;rminos y condiciones de la web *&quot; y darle en &nbsp;Realizar pedido.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>L&aacute; p&aacute;gina muestra un mensaje de error en rojo arriba de los detalles de facturaci&oacute;n se&ntilde;alando que no esta permitido colocar en los campos obligatorios 1 solo caracter y en todos los demas datos a excepcion de direccion no se pueden colocar caracteres especiales, tambien muestra erro al poner un numero negativo en el telefono.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

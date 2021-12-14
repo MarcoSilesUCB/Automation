@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase internalid="854" name="1301 Validar que se puede acceder a la página de cursos">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[68]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que se puede acceder a la p&aacute;gina de cursos desde la p&aacute;gina principal de Rottweiler Academy.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>&nbsp;Navegador Chrome.</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la parte superior izquierda, hacer click en el texto de &quot;Cursos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia y ahora muestra la p&aacute;gina de cursos, que tiene el t&iacute;tulo de cursos debajo del logo de ROTTWEILER Academy.&nbsp;Abajo del t&iacute;tulo muestra el texto &ldquo; todos los cursos&rdquo; y la cantidad de cursos. En la misma altura del t&iacute;tulo &nbsp;en la parte derecha muestra un buscador de cursos, Debajo del buscador hay una secci&oacute;n de filtros.<br />
+&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="858" name="1302 Verificar que al hacer click en un curso la página muestra detalles del curso seleccionado.">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[69]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>validar que al hacer click en el curso&nbsp;&quot;como hacer milkshake&quot;&nbsp; sin iniciar sesi&oacute;n se puede ver m&aacute;s informaci&oacute;n referente al&nbsp;curso de milkshakes.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>&nbsp;Navegador Chrome.</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/<br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la parte superior izquierda, hacer click en el texto de &quot;Cursos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p><br />
+La p&aacute;gina cambia y ahora muestra la p&aacute;gina de cursos, que tiene el t&iacute;tulo de cursos debajo del logo de ROTTWEILER Academy. Abajo del t&iacute;tulo muestra el texto &ldquo; todos los cursos&rdquo; y la cantidad de cursos. En la misma altura del t&iacute;tulo &nbsp;en la parte derecha muestra un buscador de cursos, Debajo del buscador hay una secci&oacute;n de filtros.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Hacer click en la tarjeta del curso &quot;Como hacer milkshake&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina se actualiza ahora muestra en la p&aacute;gina el titulo &quot;como hacer milkshakes&quot;, bajo el t&iacute;tulo se puede dar click en el texto &quot;ver detalles del curso&quot; y bajo esto tenemos el instructor que da el curso. A la derecha se puedes apuntarte al curso</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="863" name="1303 Verificar que se puede ordenar los cursos por &quot;recién creados&quot;">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[70]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verificar que al hacer click en el primer filtro&nbsp;se puede ordenar los cursos por &quot;reci&eacute;n creados&quot;&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>&nbsp;Navegador Chrome.</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy<br />
+&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la parte superior izquierda, hacer click en el texto de &quot;Cursos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia y ahora muestra la p&aacute;gina de cursos, que tiene el t&iacute;tulo de cursos debajo del logo de ROTTWEILER Academy. Abajo del t&iacute;tulo muestra el texto &ldquo; todos los cursos&rdquo; y la cantidad de cursos. En la misma altura del t&iacute;tulo &nbsp;en la parte derecha muestra un buscador de cursos, Debajo del buscador hay una secci&oacute;n de filtros.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el primer filtro, empezando a contar por la izquierda y seleccionar &quot;recien creado&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La secci&oacute;n del medio donde se muestran todos los cursos, ahora los muestra de acuerdo al orden en que el fueron creados, empezando por los mas recientes. El primer filtro ahora dice &quot;recien creados&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="868" name="1304 Validar que si no se inicia sesión no se puede ordenar por &quot;mi progreso&quot;">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[71]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que si no se inicia sesi&oacute;n el primer filtro de la izquierda no tiene la opci&oacute;n para filtrar por &quot;mi progreso&quot;</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>Navegador Chrome instalado<br />
+	&nbsp;</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la parte superior izquierda, hacer click en el texto de &quot;Cursos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia y ahora muestra la p&aacute;gina de cursos, que tiene el t&iacute;tulo de cursos debajo del logo de ROTTWEILER Academy. Abajo del t&iacute;tulo muestra el texto &ldquo; todos los cursos&rdquo; y la cantidad de cursos. En la misma altura del t&iacute;tulo &nbsp;en la parte derecha muestra un buscador de cursos, Debajo del buscador hay una secci&oacute;n de filtros.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el primer filtro, empezando a contar por la izquierda.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Los filtros que muestra solo son por&quot;alfab&eacute;tico&quot; y por &quot;recien creados&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="873" name="1305 validar que se pueden filtrar por todos los tipos de filtros a la vez.">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[72]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>validar que se pueden filtrar por todos los tipos de filtros a la vez.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>&nbsp;Navegador Chrome.</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la parte superior izquierda, hacer click en el texto de &quot;Cursos&quot;</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia y ahora muestra la p&aacute;gina de cursos, que tiene el t&iacute;tulo de cursos debajo del logo de ROTTWEILER Academy. Abajo del t&iacute;tulo muestra el texto &ldquo; todos los cursos&rdquo; y la cantidad de cursos. En la misma altura del t&iacute;tulo &nbsp;en la parte derecha muestra un buscador de cursos, Debajo del buscador hay una secci&oacute;n de filtros.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el primer filtro, empezando a contar por la izquierda y seleccionar &quot;recien creado&quot;<br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La secci&oacute;n del medio donde se muestran todos los cursos, ahora los muestra de acuerdo al orden en que el fueron creados, empezando por los mas recientes. El primer filtro ahora dice &quot;recien creados&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el segundo filtro, empezando a contar por la izquierda y seleccionar &quot;Decoraci&oacute;n&quot;<br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Muestra en la secci&oacute;n de tarjetas de cursos, solamente &quot;como decorar con neon&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el tercer filtro, empezando a contar por la izquierda y seleccionar &quot;rottweilergroupbolivia &quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>No muestra ningun curso, solamente muestra el mensaje &quot;Lo siento, no se encontraron cursos.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="880" name="1306 validar que en el buscador se puede buscar por precio.">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[73]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>1306 validar que en el buscador se puede buscar por el&nbsp;precio de cada curso.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>Navegador Chrome instalado</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la parte superior izquierda, hacer click en el texto de &quot;Cursos&quot;</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia y ahora muestra la p&aacute;gina de cursos, que tiene el t&iacute;tulo de cursos debajo del logo de ROTTWEILER Academy. Abajo del t&iacute;tulo muestra el texto &ldquo; todos los cursos&rdquo; y la cantidad de cursos. En la misma altura del t&iacute;tulo &nbsp;en la parte derecha muestra un buscador de cursos, Debajo del buscador hay una secci&oacute;n de filtros.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el buscador &quot;busca en cursos&quot; y escribir: 1</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>L&aacute; p&aacute;gina muestra solamente el curso &quot;como hacer milkshakes&quot; ya que solo esta tiene el precio de 1&nbsp;bs</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="885" name="1307 validar que el buscador no muestre nada si se busca una sola letra con acento.">
+	<node_order><![CDATA[6]]></node_order>
+	<externalid><![CDATA[74]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que cuando se busca &quot; &uacute; &quot; en el buscador no muestra nada, ya que no hay cursos que contengan esa letra seguida de un espacio.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Conexi&oacute;n a internet</li>
+	<li>Navegador Chrome instalado</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navegar a https://www.r-acad.com/</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Se muestra la p&aacute;gina principal de Rottweiler Academy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>En la parte superior izquierda, hacer click en el texto de &quot;Cursos&quot;</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La p&aacute;gina cambia y ahora muestra la p&aacute;gina de cursos, que tiene el t&iacute;tulo de cursos debajo del logo de ROTTWEILER Academy. Abajo del t&iacute;tulo muestra el texto &ldquo; todos los cursos&rdquo; y la cantidad de cursos. En la misma altura del t&iacute;tulo &nbsp;en la parte derecha muestra un buscador de cursos, Debajo del buscador hay una secci&oacute;n de filtros.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Hacer click en el buscador &quot;busca en cursos&quot; y escribir: &quot;&uacute; &quot; es una letra con acento seguida de un espacio.<br />
+&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>L&aacute; p&aacute;gina no muestra ningun curso, solo el mensaje de &quot;Lo siento, no se encontraron cursos.&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>
