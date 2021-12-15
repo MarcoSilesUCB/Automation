@@ -53,12 +53,12 @@ Then(/^Veo el mensaje "([^"]*)"$/) do |string|
   end
 end
 
-# Then(/^Veo el mensaje de semana "([^"]*)"$/) do |string|
-#   message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[1]/h1')
-#   if message.text != string
-#     raise "result should be "+string
-#   end
-# end
+Then(/^Veo el mensaje de semana "([^"]*)"$/) do |string|
+  message = find(:xpath, '/html/body/div[1]/div/div/div/div/main/article/div/div/div[2]/div[1]/h1')
+  if message.text != string
+    raise "result should be "+string
+  end
+end
 
 Then('Veo el titulo de: {string}') do |string|
   if string == "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
