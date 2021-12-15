@@ -9,7 +9,7 @@ Scenario: eventos anteriores
   When Preciono el boton de: "Eventos anteriores"
   Then Veo el mensaje "CURSO ONLINE: PRESUPUESTO EMPRESARIAL"
 
-Scenario: un evento
+Scenario: Ingresar en un evento
   Given estoy en la pagina principal
   And Visito la pagina de "eventos"
   When Preciono el boton de: "Eventos anteriores"

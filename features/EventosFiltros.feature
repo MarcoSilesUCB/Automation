@@ -10,10 +10,3 @@ Scenario: filtro de mes
   And Clickeo en: "Mes"
   Then Veo el mensaje "Eventos en diciembre 2021"
 
-Scenario: filtro de semana
-  Given estoy en la pagina principal
-  And Visito la pagina de "eventos"
-  When Preciono el boton de: "Lista"
-  And Clickeo en: "Semana"
-  Then Veo el mensaje de semana "Eventos para semana del diciembre 13, 2021"
-
