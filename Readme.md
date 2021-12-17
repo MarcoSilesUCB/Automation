@@ -18,3 +18,12 @@ En algunos casos las pruebas pueden fallar debido a problemas de la aplicacion a
 - debido a que muchos botones no redirigen a ningun lado.
 
 
+*Comandos de Ejecución*
+
+Para hacer correr todo los tests
+
+    cucumber features
+    
+Para generar un reporte de la ejecucion 
+
+    cucumber features -f html -ReporteBDD.html 
